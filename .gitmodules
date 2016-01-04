@@ -122,3 +122,6 @@
 	path = .vim/bundle/vim-ruby
 	url = git@ssh.github.com:vim-ruby/vim-ruby.git
     ignore = dirty
+[submodule ".vim/bundle/vim-javascript-syntax"]
+	path = .vim/bundle/vim-javascript-syntax
+	url = git@ssh.github.com:jelera/vim-javascript-syntax.git
