@@ -4,7 +4,6 @@
 export PROJECTS='/opt/projects'
 export TOOLS='/opt/tools'
 export DROPBOX='/opt/Dropbox'
-export SMART='/smart'
 
 alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
