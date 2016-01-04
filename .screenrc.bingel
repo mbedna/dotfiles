@@ -1,0 +1,40 @@
+# to use this:
+# screen -c $HOME/.screenrc.java
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t home 0
+screen -t home 1
+screen -t env 2
+screen -t bingel 3
+screen -t didactus 4
+screen -t core 5
+screen -t collection 6
+screen -t like 7
+screen -t lms 8
+screen -t mm 9
+screen -t yteach 10
+screen -t ci 11
+select 2
+stuff "goenv \012" 
+select 3
+stuff "gobingel \012 vim \012" 
+select 4
+stuff "godidactus \012 vim \012" 
+select 5
+stuff "gocore \012 vim \012" 
+select 6
+stuff "gocollection \012 vim \012"
+select 7
+stuff "goresourcelike \012 vim \012"
+select 8
+stuff "sshlms \012"
+select 9 
+stuff "sshmm \012"
+select 10
+stuff "sshyteach \012"
+select 11
+stuff "sshciubuntu \012"
+select 0
+#screen -t eclim bash -c "starteclim" 3
+# start with main 'shell' window showing

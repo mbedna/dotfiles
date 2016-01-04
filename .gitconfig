@@ -1,0 +1,27 @@
+[user]
+	name = Marcin Bednarek
+	email = paws77@gmail.com
+[push]
+	default = current
+[credential]
+	helper = /opt/boxen/bin/boxen-git-credential
+[alias]
+    st = status
+    ci = commit -v
+    aa = add -A
+    ch-- = checkout --
+    ch = checkout
+[core]
+	autocrlf = false
+	excludesfile = /opt/boxen/config/git/gitignore
+	filemode = false
+[color]
+	diff = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[pull]
+	default = current

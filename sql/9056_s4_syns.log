@@ -1,0 +1,190 @@
+14:56:28 SQL> 
+14:56:28 SQL> create synonym AAPSCC_NEXT for s4.AAPSCC_NEXT;
+Elapsed: 00:00:00.26
+14:56:28 SQL> create synonym ACCOUNTPROCESSINFORMATION for s4.ACCOUNTPROCESSINFORMATION;
+Elapsed: 00:00:00.01
+14:56:28 SQL> create synonym ACCOUNTSOLICITATION for s4.ACCOUNTSOLICITATION;
+Elapsed: 00:00:00.01
+14:56:28 SQL> create synonym ACCOUNTSUGGEESTEDPRODUCT for s4.ACCOUNTSUGGEESTEDPRODUCT;
+Elapsed: 00:00:00.00
+14:56:28 SQL> create synonym ACCOUNTSUGGESTEDPRODUCT for s4.ACCOUNTSUGGESTEDPRODUCT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ACCSOL_NEXT for s4.ACCSOL_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ACCTXREF for s4.ACCTXREF;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ACCTXREF_NEXT for s4.ACCTXREF_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ACTIVITYACCOUNTLINK for s4.ACTIVITYACCOUNTLINK;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ACTIVITYACCOUNTLINK_REPORT for s4.ACTIVITYACCOUNTLINK_REPORT;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym ACTIVITYCUSTOMERLINK for s4.ACTIVITYCUSTOMERLINK;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ACTIVITYCUSTOMERLINK_REPORT for s4.ACTIVITYCUSTOMERLINK_REPORT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ACTIVITYLOG for s4.ACTIVITYLOG;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ACTIVITYLOG_REPORT for s4.ACTIVITYLOG_REPORT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ADS_NEXT for s4.ADS_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym APA_BCOTTAGF2 for s4.APA_BCOTTAGF2;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym APA_BCOTTAGF2_NEXT for s4.APA_BCOTTAGF2_NEXT;
+Elapsed: 00:00:00.03
+14:56:29 SQL> create synonym API_NEXT for s4.API_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym APSCC_NEXT for s4.APSCC_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ARN_COUNTER for s4.ARN_COUNTER;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym ARN_COUNTER_NEXT for s4.ARN_COUNTER_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ASP_DAILY_SUPPRESS for s4.ASP_DAILY_SUPPRESS;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ASP_NEXT for s4.ASP_NEXT;
+Elapsed: 00:00:00.03
+14:56:29 SQL> create synonym ASP_SUPPRESSION for s4.ASP_SUPPRESSION;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ASP_SUP_NEXT for s4.ASP_SUP_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym AUXACCTPRICINGSEARSCREDITCARD for s4.AUXACCTPRICINGSEARSCREDITCARD;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym AUXPRICINGSEARSCREDITCARD for s4.AUXPRICINGSEARSCREDITCARD;
+Elapsed: 00:00:00.05
+14:56:29 SQL> create synonym BALANCETRANSFERDETAIL for s4.BALANCETRANSFERDETAIL;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym BALANCETRANSFERDETAIL_REPORT for s4.BALANCETRANSFERDETAIL_REPORT;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym BILLING_CALENDAR for s4.BILLING_CALENDAR;
+Elapsed: 00:00:00.03
+14:56:29 SQL> create synonym BILLING_CALENDAR_NEXT for s4.BILLING_CALENDAR_NEXT;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym CONVCHCK_NEXT for s4.CONVCHCK_NEXT;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym CONVCHECK_NEXT for s4.CONVCHECK_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym CONVENIENCECHECK for s4.CONVENIENCECHECK;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym COOLOFF_PERIOD2 for s4.COOLOFF_PERIOD2;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym COOLOFF_PERIOD2_NEXT for s4.COOLOFF_PERIOD2_NEXT;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym EFC_NEXT for s4.EFC_NEXT;
+Elapsed: 00:00:00.03
+14:56:29 SQL> create synonym EXPLAINFINANCECHARGE for s4.EXPLAINFINANCECHARGE;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym FEMAZIPCODE for s4.FEMAZIPCODE;
+Elapsed: 00:00:00.06
+14:56:29 SQL> create synonym FEMAZIPCODE_NEXT for s4.FEMAZIPCODE_NEXT;
+Elapsed: 00:00:00.05
+14:56:29 SQL> create synonym FUN_HOLIDAY for s4.FUN_HOLIDAY;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym FUN_HOLIDAY_NEXT for s4.FUN_HOLIDAY_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym GRMASLOG for s4.GRMASLOG;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym JA27_NEXT for s4.JA27_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym JARICH for s4.JARICH;
+create synonym JARICH for s4.JARICH
+               *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object
+
+
+Elapsed: 00:00:00.09
+14:56:29 SQL> create synonym JOBAID27 for s4.JOBAID27;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym LATEFEESTATUS for s4.LATEFEESTATUS;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym LFS for s4.LFS;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym LFS_NEXT for s4.LFS_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym MPL for s4.MPL;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym MPL_NEXT for s4.MPL_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym OIL_XREF for s4.OIL_XREF;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym OIL_XREF_NEXT for s4.OIL_XREF_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ONLINENARROWRECORD for s4.ONLINENARROWRECORD;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ONLINESOURCEDATA for s4.ONLINESOURCEDATA;
+Elapsed: 00:00:00.02
+14:56:29 SQL> create synonym ONR_NEXT for s4.ONR_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym OSD_NEXT for s4.OSD_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym PAYMENTINCENTIVES for s4.PAYMENTINCENTIVES;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym PAYMENTINCENTIVES_NEXT for s4.PAYMENTINCENTIVES_NEXT;
+Elapsed: 00:00:00.04
+14:56:29 SQL> create synonym PIONR for s4.PIONR;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym PIONR_NEXT for s4.PIONR_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym POS_CURRENT for s4.POS_CURRENT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym POS_NEXT for s4.POS_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym POS_VERIFY for s4.POS_VERIFY;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym PRICING for s4.PRICING;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym PRICING_NEXT for s4.PRICING_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym PRODUCTACTIVITYINFO for s4.PRODUCTACTIVITYINFO;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym PRODUCTACTIVITYINFO_REPORT for s4.PRODUCTACTIVITYINFO_REPORT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym ROUTINGDATA for s4.ROUTINGDATA;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym ROUTING_NEXT for s4.ROUTING_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym RPI for s4.RPI;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym RPI_NEXT for s4.RPI_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym RPL_XREF for s4.RPL_XREF;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym RPL_XREF_NEXT for s4.RPL_XREF_NEXT;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym SOLICITATION for s4.SOLICITATION;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym SOL_NEXT for s4.SOL_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym SOURCECODE_CURRENT for s4.SOURCECODE_CURRENT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym SOURCECODE_NEXT for s4.SOURCECODE_NEXT;
+Elapsed: 00:00:00.01
+14:56:29 SQL> create synonym SRS_XREF for s4.SRS_XREF;
+Elapsed: 00:00:00.00
+14:56:29 SQL> create synonym SRS_XREF_NEXT for s4.SRS_XREF_NEXT;
+Elapsed: 00:00:00.01
+14:56:30 SQL> create synonym SYSPRIN for s4.SYSPRIN;
+Elapsed: 00:00:00.00
+14:56:30 SQL> create synonym SYSPRIN_NEXT for s4.SYSPRIN_NEXT;
+Elapsed: 00:00:00.01
+14:56:30 SQL> create synonym THD_XREF for s4.THD_XREF;
+Elapsed: 00:00:00.00
+14:56:30 SQL> create synonym THD_XREF_NEXT for s4.THD_XREF_NEXT;
+Elapsed: 00:00:00.01
+14:56:30 SQL> create synonym WEB_ACCOUNT_DETAIL for s4.WEB_ACCOUNT_DETAIL;
+Elapsed: 00:00:00.02
+14:56:30 SQL> create synonym WEB_ACCOUNT_DETAIL_NEXT for s4.WEB_ACCOUNT_DETAIL_NEXT;
+Elapsed: 00:00:00.02
+14:56:30 SQL> create synonym WEB_DETAIL_TYPE_DETAIL for s4.WEB_DETAIL_TYPE_DETAIL;
+Elapsed: 00:00:00.00
+14:56:30 SQL> create synonym WEB_DETAIL_TYPE_DETAIL_NEXT for s4.WEB_DETAIL_TYPE_DETAIL_NEXT;
+Elapsed: 00:00:00.01
+14:56:30 SQL> create synonym WEB_LABELS for s4.WEB_LABELS;
+Elapsed: 00:00:00.01
+14:56:30 SQL> create synonym WEB_LABELS_NEXT for s4.WEB_LABELS_NEXT;
+Elapsed: 00:00:00.00
+14:56:30 SQL> 
+14:56:30 SQL> 
+14:56:30 SQL> spool off

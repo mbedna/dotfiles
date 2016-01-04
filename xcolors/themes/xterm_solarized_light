@@ -1,0 +1,47 @@
+!! black dark/light
+xterm*color0:               #eee8d5
+xterm*color8:               #fdf6e3
+
+!! red dark/light
+xterm*color2:               #dc322f
+xterm*color9:               #cb4b16
+
+!! green dark/light
+xterm*color1:               #859900
+xterm*color10:              #93a1a1
+
+!! yellow dark/light
+xterm*color3:               #b58900
+xterm*color11:              #839498
+
+!! blue dark/light
+xterm*color4:               #268bd2
+xterm*color12:              #657b83
+
+!! magenta dark/light
+xterm*color5:               #d33682
+xterm*color13:              #6c71c4
+
+!! cyan dark/light
+xterm*color6:               #2aa198
+xterm*color14:              #586e75
+
+!! white dark/light
+xterm*color7:               #073642
+xterm*color15:              #002b36
+
+xterm*background:            #fdf6e3
+xterm*foreground:            #839498
+xterm*fading:                40
+xterm*fadeColor:             #fdf6e3
+xterm*cursorColor:           #586e75
+xterm*pointerColorBackground:#93a1a1
+xterm*pointerColorForeground:#586e75
+
+!xterm*background:            color8
+!xterm*foreground:            color11 
+!xterm*fading:                40
+!xterm*fadeColor:             color8 
+!xterm*cursorColor:           color14
+!xterm*pointerColorBackground:color10
+!xterm*pointerColorForeground:color14

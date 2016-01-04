@@ -1,0 +1,30 @@
+# to use this:
+# screen -c $HOME/.screenrc.java
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t home 0
+screen -t trunk 1
+screen -t trunkServer 2
+#screen -t branch 2
+screen -t tomcat 3 
+screen -t devserver 4
+screen -t database 5
+#screen -t eclim bash -c "starteclim" 3
+# start with main 'shell' window showing
+select 0
+#stuff "cntlm& \012"
+select 1
+stuff "gopmitrunk \012" 
+select 2
+stuff "gopmitrunk \012" 
+#select 2
+#stuff "gopmibranch \012" 
+select 3
+stuff "godeploy \012"
+select 4
+#stuff "sshpmidev.sh \012"
+select 5
+#stuff "gopmitrunkoracle \012 vimdatabase.sh \012"
+stuff "gopmitrunkoracle \012"
+select 0

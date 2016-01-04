@@ -1,0 +1,5 @@
+#!/bin/sh
+grep --color \
+--exclude-dir=target \
+--exclude={"*.zip","tags"} \
+-ri "$@"

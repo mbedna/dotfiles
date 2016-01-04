@@ -1,0 +1,23 @@
+xterm*color0:  #282828
+xterm*color8:  #494949
+!red
+xterm*color1:  #b76969
+xterm*color9:  #b87e7e
+!green
+xterm*color2:  #719d72
+xterm*color10: #839d84
+!yellow
+xterm*color3:  #909858
+xterm*color11: #919864
+!blue
+xterm*color4:  #68668f
+xterm*color12: #73718f
+!magenta
+xterm*color5:  #966894
+xterm*color13: #987397
+!cyan
+xterm*color6:  #688891
+xterm*color14: #758c93
+!white
+xterm*color7:  #8e8e8e
+xterm*color15: #aeaeae

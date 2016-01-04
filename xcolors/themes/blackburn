@@ -1,0 +1,38 @@
+xterm*background: #020202
+xterm*foreground: #F2F1F0
+!xterm*cursorColor: #F67730
+xterm*cursorColor: #6D878D
+
+!black
+xterm*color0: #222222
+xterm*color8: #666666
+
+!red
+xterm*color1: #D23D3D
+xterm*color9: #E84F4F
+
+!green
+xterm*color2: #B7CE42
+xterm*color10: #BDE077
+
+!yellow
+xterm*color3: #F6784F
+xterm*color11: #F07746
+
+!blue
+xterm*color4: #7DC1CF
+!xterm*color4: #66AABB
+xterm*color12: #4E9FB1
+!xterm*color12: #AACCBB
+
+!magenta
+xterm*color5: #B7416E
+xterm*color13: #E16A98
+
+!cyan
+xterm*color6: #6D878D
+xterm*color14: #42717B
+
+!white
+xterm*color7: #F2F1F0
+xterm*color15: #F2F1F0

@@ -1,0 +1,1218 @@
+15:06:12 SQL> 
+15:06:12 SQL> grant select on  ACCOUNTSUGGESTEDPRODUCT_ACTIVE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.05
+15:06:12 SQL> grant select on  ACCOUNTSUGGESTEDPRODUCT_CTA to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on  ACCOUNTSUGGESTEDPRODUCT_TEMP to mirror;
+grant select on  ACCOUNTSUGGESTEDPRODUCT_TEMP to mirror
+                 *
+ERROR at line 1:
+ORA-04063: view "S4.ACCOUNTSUGGESTEDPRODUCT_TEMP" has errors 
+
+
+Elapsed: 00:00:00.00
+15:06:12 SQL> grant select on  ACCT_XREF_COMBINED to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:12 SQL> grant select on  ASP_SUPPRESS_VIEW to mirror;
+grant select on  ASP_SUPPRESS_VIEW to mirror
+                 *
+ERROR at line 1:
+ORA-04063: view "S4.ASP_SUPPRESS_VIEW" has errors 
+
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on  ASP_TEST_VW to mirror;
+grant select on  ASP_TEST_VW to mirror
+                 *
+ERROR at line 1:
+ORA-04063: view "S4.ASP_TEST_VW" has errors 
+
+
+Elapsed: 00:00:00.00
+15:06:12 SQL> grant select on  JARICH_VW1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.13
+15:06:12 SQL> grant select on  PRODUCTOFFERSERVICESDETAIL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:12 SQL> grant select on  SOURCECODE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:12 SQL> 
+15:06:12 SQL> grant select on PIONR_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:12 SQL> grant select on PIONR_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on THD_XREF_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:12 SQL> grant select on ADNLOOKUP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.06
+15:06:12 SQL> grant select on ACTIVATIONKEY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:12 SQL> grant select on ACTIVATIONKEYPARMS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:12 SQL> grant select on ACTIVITYACCOUNTLINK_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ACTIVITYACCOUNTLINK_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ACTIVITYCAMPAIGNRESPONSE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:12 SQL> grant select on ACTIVITYCUSTOMERLINK_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ACTIVITYCUSTOMERLINK_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ACTIVITYLOG_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ACTIVITYLOG_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:12 SQL> grant select on ADNFIELD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:12 SQL> grant select on ROUTING_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on ROUTING_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACCSOL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on ACCSOL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACTIVITYTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on POS_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:13 SQL> grant select on RPL_XREF_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:13 SQL> grant select on ACTIVITYLOG_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on AUDIT_LOG_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ASP_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ASP_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on POS_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:13 SQL> grant select on ACCTXREF_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on ACCTXREF_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on REACTIVECLI to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on THD_XREF_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on RPL_XREF_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on OIL_XREF_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:13 SQL> grant select on AAPSCC_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on ACCOUNTRELATIONSHIP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:13 SQL> grant select on ACCOUNTSTATUS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACCOUNTSUGGESTEDARCHIVE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACCOUNTVALUE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACCOUNTVALUEPROD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ACCOUNTVALUESOURCE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on AAPSCC_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ADNMAP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ADNMAPENTRY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on ADS_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ADS_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on API_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on API_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on APPLICATION to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on APPLICATIONUSER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on APSCC_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on APSCC_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on EMAILTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:13 SQL> grant select on ASP_ACCEPTED to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:13 SQL> grant select on ASP_SUPPRESS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on AVAILABLELANGUAGECOUNTRY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on BACKOUT_RETENTION to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on BTD_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:13 SQL> grant select on BTD_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CAMPAIGNCELL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on CHANNEL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on COHORT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CONTACTMETHOD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on CONVCHCK_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ENTERPRISEAPR to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:13 SQL> grant select on ENTERPRISELINEOFCREDIT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CONVCHCK_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on PLAN_TABLE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:13 SQL> grant select on CUSTOMERDEMOGRAPHICS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CUSTOMERSEGMENT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CUSTOMERSEGMENTTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on CUSTOMERTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on EFC_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on EFC_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on ENTERPRISEPRODUCT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on JA27_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on JA27_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LFL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LFL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LFS_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LFS_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on PRICINGAUTHORIZEDUSER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:13 SQL> grant select on LIFESTAGES to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:13 SQL> grant select on LOCATION to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LOOKUP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on LOOKUPTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on MAILED to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on MEMOACCOUNT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on MEMOACCOUNTLINK to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:13 SQL> grant select on MEMOADDRESS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on MEMOCOMMERCIAL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:13 SQL> grant select on MEMOCONSUMER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on MEMOEMAIL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on MEMOPHONE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on MESSAGE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on MESSAGECATEGORY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on MPL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on MPL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on NETDOWN to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on OFFER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on OFFERCL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on OFFERNOMAIL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on OFFERTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRICINGCREDITCARD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on OSD_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on OSD_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PCYCLE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PHONETYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRICINGGENERIC to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRICINGGROUP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRICINGGROUPREF to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRICINGSEARSCREDITCARD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRIORITY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PRIVACYPREFERENCES to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PRIZM to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODACTINFO_REWARDS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODOFFREQSEGMENT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PRODOFFREQVALUE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODUCT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:14 SQL> grant select on PRODUCTACTIVITYINFO_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PRODUCTACTIVITYINFO_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODUCTGROUP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODUCTGROUPREF to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PRODUCTOFFER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PROFITABILITY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PROFITABILITYSOURCE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on RANGELOOKUP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on RANGELOOKUPTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on REPORTCARDLOG to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on REWARDLOGINFO to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on RISK to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on RISKSOURCE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on RPI_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on RPI_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SOLICITATION_OLD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SOL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SOL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on SOURCECODE_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SOURCECODE_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:14 SQL> grant select on STATTAB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SUGGESTEDPRODUCT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SUPPRESS_PERIOD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on TIMESCHEDULE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on TINTYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on TRANSLATION to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on VENDOR to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on WEB_ACCOUNT_DETAIL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on XLOGTABLE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on WEB_ACCOUNT_DETAIL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on WEB_DETAIL_TYPE_DETAIL_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on WEB_DETAIL_TYPE_DETAIL_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on WEB_LABELS_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on WEB_LABELS_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on XFULFILLCHANNEL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on XFULFILLCHANNELEXCEP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on XFULFILLCHANNELTIMESCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:14 SQL> grant select on XFULFILLCHANNELTRACK to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on PI_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:14 SQL> grant select on PI_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:14 SQL> grant select on PAYMENTINCENTIVES_OVERFLOW to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:14 SQL> grant select on HILOSEQUENCES to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:14 SQL> grant select on SERVER_LOOKUP_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:14 SQL> grant select on ADVERSE_ACTION_LOG to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SYSPRIN_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on SYSPRIN_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:14 SQL> grant select on TMP_PI to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:15 SQL> grant select on ONR_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on ONR_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on OIL_XREF_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on SRS_XREF_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on SRS_XREF_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:15 SQL> grant select on APA_ARGMT_ELIGIBILITY to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:15 SQL> grant select on APA_BCOTTAGF2_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on APA_CONCESSIONS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on APA_NC_BUCKET_MONTHS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on ARN_COUNTER_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on ARRANG_TYPE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on BILLING_CALENDAR_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on BVH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.00
+15:06:15 SQL> grant select on CLIENT_INFO_BY_SPA to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on COOLOFF_PERIOD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on COOLOFF_PERIOD2_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on FEMAZIPCODE_OLD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:15 SQL> grant select on FUN_HOLIDAY_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on PI_ARRANGEMENT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on SETTLEMENT_PERCENTAGES to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on TTAG to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on TTAG_PROMPT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on PROMO_DETAILS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on APA_NC_BUCKET_MONTHS2 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:15 SQL> grant select on APA_BCOTTAGF to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:15 SQL> grant select on FEMAZIPCODE_10152010 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.05
+15:06:15 SQL> grant select on BILLING_CALENDAR_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on FUN_HOLIDAY_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on ARN_COUNTER_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on APA_BCOTTAGF2_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on COOLOFF_PERIOD2_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on ACCOUNT_BUREAU_TMP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.07
+15:06:15 SQL> grant select on ACCOUNT_BUREAU to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on PI_COMPARE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.05
+15:06:15 SQL> grant select on PI_UPDATE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on JARICH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on JARICH_UPD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on JARICH_2 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:15 SQL> grant select on JARICH_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on PRICING_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:15 SQL> grant select on PRICING_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on FEMAZIPCODE_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.04
+15:06:15 SQL> grant select on FEMAZIPCODE_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on ACCOUNT_BUREAU_20110121 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:15 SQL> grant select on AUDIT_TYPE_LOOKUP_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:15 SQL> grant select on CLIENT_INFO_BY_SPA_20110321 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.06
+15:06:16 SQL> grant select on ACCOUNT_BUREAU_0117 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.05
+15:06:16 SQL> grant select on RFD to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:16 SQL> grant select on CONFIG_PROPERTIES_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on ASP_SUP_0 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on ASP_SUP_1 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:16 SQL> grant select on PI_ON9056_NOT9046 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.09
+15:06:16 SQL> grant select on PI_ON9046_NOT9056 to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on SPECIAL_USER_CODES_TB to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.07
+15:06:16 SQL> grant select on CITCODE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on PROMO_DETAILS_TMP to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.06
+15:06:16 SQL> grant select on PRODUCTACTIVITYINFO_ARCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.06
+15:06:16 SQL> grant select on BALANCETRANSFERDETAIL_ARCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.05
+15:06:16 SQL> grant select on ACTIVITYCUSTOMERLINK_ARCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.08
+15:06:16 SQL> grant select on ACTIVITYLOG_ARCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on PHONE to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on EMAIL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on ACTIVITYACCOUNTLINK_ARCH to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.06
+15:06:16 SQL> grant select on CONSUMER to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:16 SQL> grant select on ADDRESS to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.02
+15:06:16 SQL> grant select on ACCOUNTLINK to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:16 SQL> grant select on COMMERCIAL to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.03
+15:06:16 SQL> grant select on ACCOUNT to mirror;
+
+Grant succeeded.
+
+Elapsed: 00:00:00.01
+15:06:16 SQL> 
+15:06:16 SQL> spool off

@@ -1,0 +1,18 @@
+# to use this:
+# screen -c $HOME/.screenrc.java
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t shell 0
+screen -t git 1
+screen -t vim 2 
+screen -t eclim 3
+#screen -t eclim bash -c "starteclim" 3
+# start with main 'shell' window showing
+select 2
+stuff "cd repo/tdd \012 vim --servername vim \012"
+select 1
+stuff "cd repo/tdd \012"
+select 3
+stuff "starteclim \012"
+select 0

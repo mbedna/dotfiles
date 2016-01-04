@@ -1,0 +1,110 @@
+#paths that has to be changed
+. $HOME/bin/env.sh 
+
+export PROJECTS='/opt/projects'
+export TOOLS='/opt/tools'
+export DROPBOX='/opt/Dropbox'
+export SMART='/smart'
+
+alias gotools='cd $TOOLS'
+alias goprojects='cd $PROJECTS'
+alias gosmart1='cd $PROJECTS/smart1'
+alias gosmart2='cd $PROJECTS/smart2'
+alias gofrontends='cd $PROJECTS/capd-frontends'
+alias goservices='cd $PROJECTS/capd-services'
+alias goservicesapi='cd $PROJECTS/capd-services-api'
+alias goservicesclient='cd $PROJECTS/capd-services-client'
+alias gomocks='cd $PROJECTS/capd-mocks'
+alias goclient='cd $PROJECTS/capd-siti-services-client'
+alias gointerfaces='cd $PROJECTS/capd-siti-services-interfaces'
+alias gotasks='cd $PROJECTS/capd-tasks'
+alias gomigrations='cd $PROJECTS/capd-schema-migrations'
+alias goselenium='cd $PROJECTS/capd-selenium'
+alias goproject='cd $PROJECTS/capd-project'
+alias goops='cd $PROJECTS/capd-ops'
+alias godeployment='cd $PROJECTS/capd-deployment'
+alias goplayauth='cd $PROJECTS/capd-play-auth'
+alias gonotifications='cd $PROJECTS/notification-service'
+alias godropbox='cd $DROPBOX'
+alias godatabase='cd /opt/tools/OracleVM'
+alias gointernalauth='cd $PROJECTS/capd-internal-user-auth-services'
+alias goplaces='cd $PROJECTS/capd-places-service'
+alias goextract='cd $PROJECTS/capd-extract-feed'
+
+alias ll='ls -alF --color'
+alias la='ls -A --color'
+alias l='ls -CF --color'
+
+if [[ $platform == 'linux' ]]; then
+	export C_DRIVE='/media/sf_C_DRIVE'
+    export WORKSPACEPMI=~/workspacepmi
+	export ECLIM_ECLIPSE_HOME=$TOOLS/springsource/sts-2.9.1.RELEASE
+	export ECLIPSE_HOME=$TOOLS/eclipse
+	export SOAPUI_HOME=$TOOLS/soapui-4.5.1
+	export PATH=$PATH:$SOAPUI_HOME/bin
+	#looks like sqldeveloper is installed in two places TODO
+	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
+	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
+	export M2_HOME=$TOOLS/maven
+#	export M2_HOME=/media/paws/PENDRIVE/programs/maven
+	export ANT_HOME=$TOOLS/ant
+	export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+	export GANT_HOME=$TOOLS/gant-1.9.8
+	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
+	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
+	alias starteclipse=$ECLIPSE_HOME/eclipse
+	alias startsoapui=soapui.sh
+	alias startsqldeveloper=sqldeveloper
+    alias gotns='cd' 
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/repo/mbedna/oracle/instantclient_11_2
+    export PATH=$PATH:~/repo/mbedna/oracle/instantclient_11_2
+    export cl_path="$HOME/lib/javacompiler-1.0.jar"
+elif [[ $platform == 'cygwin' ]]; then
+	export C_DRIVE='/cygdrive/c'
+	export D_DRIVE='/cygdrive/d'
+	export E_DRIVE='/cygdrive/e'
+    if [[ -z "$DRIVE" ]]; then
+	    export DRIVE=$C_DRIVE
+    fi
+    export WORKSPACEPMI=$DRIVE/workspacepmi
+	export ECLIMD_OPTS='-Dosgi.instance.area.default=C:/workspacepmi'
+	export ECLIPSE_HOME=$DRIVE/eclipse
+	#Below is needed for eclim installation
+	export ECLIM_ECLIPSE_HOME=$DRIVE/eclipse
+	export M2_HOME=$TOOLS/maven
+	export SBT_HOME=$DRIVE/programs/sbt
+	export ANT_HOME=$TOOLS/ant
+	export GANT_HOME=$DRIVE/programs/gant
+	MOZILLA_HOME=$DRIVE/Program\ Files\ \(x86\)/Mozilla\ Firefox
+	ES_HOME=$TOOLS/elasticsearch-0.90.6
+	export JAVA_HOME=$DRIVE/Java/jdk1.7.0_55
+	export MONGODB_HOME=$DRIVE/programs/mongodb
+	export SCALA_HOME=$DRIVE/scala
+	export JBOSS_HOME=$DRIVE/jboss-6.1.0.Final
+	alias starteclim='$ECLIPSE_HOME/eclimd.cmd'
+	alias starteclipse=$ECLIPSE_HOME/eclipse.exe
+    alias gotns='cd $DRIVE/programs/oracle/product/11.2.0/client_1/network/admin' 
+	alias pbcopy='putclip'
+	alias pbpaste='getclip'
+    export cl_path=`cygpath -m $HOME/lib/javacompiler-1.0.jar`
+    export CYGHOME=`cygpath -m $HOME`
+    source ~/mintty-colors-solarized/mintty-blackburn.sh
+    export VBOX_USER_HOME=/cygdrive/c/Users/mbednarek/.VirtualBox
+elif [[ $platform == 'mac' ]]; then
+    alias ll='ls -alF' 
+    alias la='ls -A'
+    alias l='ls -CF'
+    JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+    [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+fi
+
+export TOMCAT_HOME=$C_DRIVE/apache-tomcat-7.0.29
+alias gopmi='cd $WORKSPACEPMI' 
+export pmitrunksrc="$WORKSPACEPMI/trunk/JAVA/src/main/java/com/acxiom/pmi/spice"
+export pmitrunktest="$WORKSPACEPMI/trunk/JAVA/src/test/java/com/acxiom/pmi/spice"
+alias gopmibranch='cd $WORKSPACEPMI/WS_REL_2.1_20130306/JAVA' 
+alias gopmitrunk='cd $WORKSPACEPMI/trunk/JAVA' 
+alias gopmitrunkoracle='cd $WORKSPACEPMI/trunk/Oracle' 
+alias goc='cd $C_DRIVE' 
+alias god='cd $D_DRIVE' 
+alias goe='cd $E_DRIVE' 

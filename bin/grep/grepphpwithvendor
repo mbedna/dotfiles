@@ -1,0 +1,11 @@
+#!/bin/sh
+exclude_list="\"build\",\"logs\",\"cache\",\".git\""
+for directory in $(find vendor -mindepth 1 -maxdepth 1 -type d -not -path "*/ydp" -exec basename {} \;); do
+    
+    exclude_list+=",\"$directory\""
+done
+grep_command="grep --color --exclude-dir={$exclude_list} --exclude=\"*.zip\"  --exclude=\"tags\" -ri $@"
+echo "Grep command: $grep_command"
+eval $grep_command
+
+

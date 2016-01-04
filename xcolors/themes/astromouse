@@ -1,0 +1,24 @@
+xterm*color0:  #1c1c1c
+xterm*color8:  #3d3a3a
+xterm*color1:  #d770af
+xterm*color9:  #d28abf
+xterm*color2 : #9acc79
+xterm*color10: #8fb676
+xterm*color3:  #d0d26b
+xterm*color11: #c8bc45
+xterm*color4 : #77b6c5
+xterm*color12: #8fa7b9
+xterm*color5:  #a488d9
+xterm*color13: #bd89de
+xterm*color6:  #7fcab3
+xterm*color14: #6ec2a8
+xterm*color7:  #8d8d8d
+xterm*color15: #dad3d3
+
+xterm*background:            #3d3a3a
+xterm*foreground:            #c8bc45
+xterm*fading:                40
+xterm*fadeColor:             #3d3a3a
+xterm*cursorColor:           #6ec2a8
+xterm*pointerColorBackground:#8fb676
+xterm*pointerColorForeground:#6ec2a8

@@ -1,0 +1,37 @@
+#include "/home/mbedna/xcolors/themes/blackburn"
+
+! xterm ----------------------------------------------------------------------
+!xterm*Locale: ISO8859-2
+xterm*Locale:             UTF-8 
+xterm*faceName:           Inconsolata
+xterm*faceSize:           14
+xterm*geometry:           180x30+0+0
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false 
+xterm*rightScrollBar:     false 
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            true
+xterm*termName:           xterm-256color
+xterm*maximized:          1
+xterm*selectToClipboard:  true
+
+!xterm*fullscreen: 1
+!Ctrl+Alt+Enter - switch to full screen
+
+xterm*VT100.allowWindowOps: true
+xterm*VT100.allowTitleOps: true
+xterm*VT100.allowFontOps: true
+xterm*VT100*translations: #override Meta <Btn1Up>: exec-formatted("chromium-browser '%t'", PRIMARY)
+
+xterm*VT100.translations: #override \
+Ctrl <Key> minus: smaller-vt-font() \n\
+Ctrl <Key> plus: larger-vt-font() \n\
+Ctrl <Key> KP_Subtract: smaller-vt-font() \n\
+Ctrl <Key> KP_Add: larger-vt-font() \n
+

@@ -1,0 +1,39 @@
+xterm*color0:     #101010
+xterm*color8:     #404040
+!red
+xterm*color1:     #E84F4F
+xterm*color9:     #D23D3D
+!green
+xterm*color2:     #B8D68C
+xterm*color10:    #A0CF5D
+!yellow
+xterm*color3:     #E1AA5D
+xterm*color11:    #F39D21
+!blue
+xterm*color4:     #7DC1CF
+xterm*color12:    #4E9FB1
+!magenta
+xterm*color5:     #9B64FB
+xterm*color13:    #8542FF
+!cyan
+xterm*color6:     #6D878D
+xterm*color14:    #42717B
+!white
+xterm*color7:     #dddddd
+xterm*color15:    #dddddd
+
+xterm*background:               #101010
+xterm*foreground:               #dddddd 
+xterm*fading:                   40
+xterm*fadeColor:                #101010
+xterm*cursorColor:              #6D878D
+!xterm*pointerColorBackground:   #A0CF5D
+!xterm*pointerColorForeground:   #42717B
+
+!xterm*background:               #404040          
+!xterm*foreground:               #F39D21
+!xterm*fading:                   40
+!xterm*fadeColor:                #404040
+!xterm*cursorColor:              #42717B
+!xterm*pointerColorBackground:   #A0CF5D
+!xterm*pointerColorForeground:   #42717B

@@ -1,0 +1,60 @@
+multiuser on
+shell "/bin/bash"
+# termcapinfo * ti@:te@
+vbell off
+startup_message off
+autodetach on
+altscreen on
+defscrollback 99999
+defutf8 on
+
+# emulate .logout message
+pow_detach_msg "Screen session of \$LOGNAME \$:cr:\$:nl:ended."
+term xterm-256color
+ 
+#utf8 on on
+# mnonblock on
+#merm screen-256color
+
+# # allow bold colors - necessary for some reason
+# attrcolor b ".I"
+# # tell screen how to set colors. AB = background, AF=foreground
+# termcapinfo xterm* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+# # erase background with current bg color
+defbce "on"
+
+#Note that the %<num>G and %<num>B tokens are only possible through my 256 color patch (github.com/shawncplus/patches)
+#hardstatus alwayslastline "%{=b}%214B%16G %H %{-b}%236B%250G %= %?%-Lw%?%{=b w}%240B%230G%t%{-b}%>%250G%236B%?%?%?%+Lw%?%?%>%= %31B%117G %m/%d %{=b}%117B%23G %c "
+# hardstatus alwayslastline "%w"
+#hardstatus alwayslastline "%= %3n %t%? [%h]%? %="
+#caption always "%{+d wk} %= %3n %t%? [%h]%? %-w%L>%{= BW}%n*%t%{-}%52<%+w %L= %{+d wk} "
+caption always "%{+d wk} %3n %t%? [%h]%? %= %-w%L>%{= BW}%n*%t%{-}%52<%+w %L= %{+d wk} "
+
+
+#caption always "%{+d wk} %3n %t "
+bind > eval writebuf "exec sh -c 'pbcopy < /tmp/screen-exchange'"
+#bind < eval "exec sh -c 'pbpaste > /tmp/screen-exchange'" "readbuf"
+
+#The problem lies in that apparently screen eval does not wait for exec process to finish before running rest of the eval options.
+#Same thing happens if you're fast enough with keyboard (e.g. when using registers).
+#So what it does is that it processes $varfile env and waits for user to press enter to run readbuf. 
+#So as long as you "wait" long enough for pbpasto to finish before pressing enter. You'll get what you want. 
+setenv varfile "exec sh -c 'pbpaste > /tmp/screen-exchange'"
+register r "^a:eval \$varfile^M^a:readbuf"
+bind < process r
+
+
+# Type "Ctrl A - [0-9]" to get to window 1[0-9]
+
+# bind keys '[ - [0-9]' to screens 10-19
+bind - command -c select10
+bind -c select10 0 select 10
+bind -c select10 1 select 11
+bind -c select10 2 select 12
+bind -c select10 3 select 13
+bind -c select10 4 select 14
+bind -c select10 5 select 15
+bind -c select10 6 select 16
+bind -c select10 7 select 17
+bind -c select10 8 select 18
+bind -c select10 9 select 19

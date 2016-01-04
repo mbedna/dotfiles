@@ -1,0 +1,10 @@
+#!/bin/bash
+. env.sh
+
+if [[ $platform == 'linux' ]]; then
+	xsel --clipboard --input
+elif [[ $platform == 'cygwin' ]]; then
+	putclip
+elif [[ $platform == 'mac' ]]; then
+    /usr/bin/pbcopy	
+fi

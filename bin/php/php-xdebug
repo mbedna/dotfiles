@@ -1,0 +1,4 @@
+#!/bin/bash
+#for Apache add variable XDEBUG_SESSION_START=xdebug as GET parameter to debug
+export XDEBUG_CONFIG="idekey=xdebug"
+/usr/bin/php "$@"

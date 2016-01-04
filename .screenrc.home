@@ -1,0 +1,19 @@
+# to use this:
+# screen -c $HOME/.screenrc.home
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t home 0
+screen -t home 1
+screen -t home 2
+screen -t mutt 3
+screen -t irssi 4
+screen -t turses 5 
+
+select 3
+stuff "mutt \012"
+select 4
+stuff "irssi \012"
+select 5
+stuff "turses \012"
+select 0

@@ -1,0 +1,13 @@
+# to use this:
+# screen -c $HOME/.screenrc.ror
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t shell
+screen -t shell2
+screen -t console
+screen -t mongrel
+screen -t log tail -f -n200 log/development_vm.log
+screen -t mysql mysql -u www-rw -pwww-rw-pass
+# start with main 'shell' window showing
+select 0

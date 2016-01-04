@@ -1,0 +1,33 @@
+!============================
+! colors ripped from rezza
+!  http://metawire.org/~rezza/index.php
+!============================
+
+xterm*foreground:     rgb:dd/dd/dd
+xterm*background:     rgb:22/22/22
+!black
+xterm*color0:         rgb:19/19/19
+xterm*color8:         rgb:25/25/25
+!red
+xterm*color1:         rgb:80/32/32
+xterm*color9:         rgb:98/2b/2b
+!green
+xterm*color2:         rgb:5b/76/2f
+xterm*color10:        rgb:89/b8/3f
+!brown/yellow
+xterm*color3:         rgb:aa/99/43
+xterm*color11:        rgb:ef/ef/60
+!blue
+xterm*color4:         rgb:32/4c/80
+xterm*color12:        rgb:2b/4f/98
+!magenta
+xterm*color5:         rgb:70/6c/9a
+xterm*color13:        rgb:82/6a/b1
+!cyan
+xterm*color6:         rgb:92/b1/9e
+xterm*color14:        rgb:a1/cd/cd
+!white
+xterm*color7:         rgb:ff/ff/ff
+xterm*color15:        rgb:dd/dd/dd
+
+! vim: ai:si:et:ts=4:sw=4:ft=xdefaults:

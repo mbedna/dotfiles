@@ -1,0 +1,12 @@
+apt-cyg install unzip
+wget --no-check-certificate https://github.com/downloads/rprichard/winpty/winpty-0.1-cygwin.zip -O winpty.zip
+unzip winpty.zip
+cp console.exe /bin/console.exe
+cp winpty.dll /bin/winpty.dll
+cp winpty-agent.exe /bin/winpty-agent.exe
+wget --no-check-certificate https://gist.github.com/raw/3164812/e79891f5fdb89f3c2e0cbf54d27e226015511d84/cmd_shell.bat -O /bin/cmd_shell.bat
+chmod +x /bin/cmd_shell.bat
+wget --no-check-certificate https://gist.github.com/raw/3164812/399f875f9e69b436f2421d4fc791d743a290111b/powershell_shell.bat -O /bin/powershell_shell.bat
+chmod +x /bin/powershell_shell.bat
+mkpasswd -l -p "$(cygpath -H)" > /etc/passwd
+sed -i 's/\/bin\/bash/\/bin\/powershell_shell.bat/' /etc/passwd

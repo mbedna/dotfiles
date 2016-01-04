@@ -1,0 +1,1163 @@
+15:49:18 SQL> 
+15:49:18 SQL> create synonym  PIONR_0 for s4.PIONR_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.08
+15:49:18 SQL> create synonym  PIONR_1 for s4.PIONR_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  THD_XREF_1 for s4.THD_XREF_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ADNLOOKUP for s4.ADNLOOKUP;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACTIVATIONKEY for s4.ACTIVATIONKEY;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVATIONKEYPARMS for s4.ACTIVATIONKEYPARMS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYACCOUNTLINK_0 for s4.ACTIVITYACCOUNTLINK_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACTIVITYACCOUNTLINK_1 for s4.ACTIVITYACCOUNTLINK_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYCAMPAIGNRESPONSE for s4.ACTIVITYCAMPAIGNRESPONSE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYCUSTOMERLINK_0 for s4.ACTIVITYCUSTOMERLINK_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACTIVITYCUSTOMERLINK_1 for s4.ACTIVITYCUSTOMERLINK_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYLOG_0 for s4.ACTIVITYLOG_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACTIVITYLOG_1 for s4.ACTIVITYLOG_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ADNFIELD for s4.ADNFIELD;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ROUTING_0 for s4.ROUTING_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ROUTING_1 for s4.ROUTING_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCSOL_0 for s4.ACCSOL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACCSOL_1 for s4.ACCSOL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYTYPE for s4.ACTIVITYTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  POS_1 for s4.POS_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  RPL_XREF_1 for s4.RPL_XREF_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACTIVITYLOG_TB for s4.ACTIVITYLOG_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  AUDIT_LOG_TB for s4.AUDIT_LOG_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ASP_0 for s4.ASP_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ASP_1 for s4.ASP_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  POS_0 for s4.POS_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCTXREF_0 for s4.ACCTXREF_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCTXREF_1 for s4.ACCTXREF_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  REACTIVECLI for s4.REACTIVECLI;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  THD_XREF_0 for s4.THD_XREF_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  RPL_XREF_0 for s4.RPL_XREF_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:18 SQL> create synonym  OIL_XREF_1 for s4.OIL_XREF_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  AAPSCC_0 for s4.AAPSCC_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACCOUNTRELATIONSHIP for s4.ACCOUNTRELATIONSHIP;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCOUNTSTATUS for s4.ACCOUNTSTATUS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCOUNTSUGGESTEDARCHIVE for s4.ACCOUNTSUGGESTEDARCHIVE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ACCOUNTVALUE for s4.ACCOUNTVALUE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCOUNTVALUEPROD for s4.ACCOUNTVALUEPROD;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ACCOUNTVALUESOURCE for s4.ACCOUNTVALUESOURCE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  AAPSCC_1 for s4.AAPSCC_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ADNMAP for s4.ADNMAP;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ADNMAPENTRY for s4.ADNMAPENTRY;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ADS_0 for s4.ADS_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ADS_1 for s4.ADS_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  API_0 for s4.API_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  API_1 for s4.API_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  APPLICATION for s4.APPLICATION;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  APPLICATIONUSER for s4.APPLICATIONUSER;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  APSCC_0 for s4.APSCC_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  APSCC_1 for s4.APSCC_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  EMAILTYPE for s4.EMAILTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  ASP_ACCEPTED for s4.ASP_ACCEPTED;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ASP_SUPPRESS for s4.ASP_SUPPRESS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  AVAILABLELANGUAGECOUNTRY for s4.AVAILABLELANGUAGECOUNTRY;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  BACKOUT_RETENTION for s4.BACKOUT_RETENTION;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  BTD_0 for s4.BTD_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  BTD_1 for s4.BTD_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  CAMPAIGNCELL for s4.CAMPAIGNCELL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  CHANNEL for s4.CHANNEL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  COHORT for s4.COHORT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:18 SQL> create synonym  CONTACTMETHOD for s4.CONTACTMETHOD;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:18 SQL> create synonym  CONVCHCK_0 for s4.CONVCHCK_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  ENTERPRISEAPR for s4.ENTERPRISEAPR;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:18 SQL> create synonym  ENTERPRISELINEOFCREDIT for s4.ENTERPRISELINEOFCREDIT;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:18 SQL> create synonym  CONVCHCK_1 for s4.CONVCHCK_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  PLAN_TABLE for s4.PLAN_TABLE;
+
+Synonym created.
+
+Elapsed: 00:00:00.09
+15:49:19 SQL> create synonym  CUSTOMERDEMOGRAPHICS for s4.CUSTOMERDEMOGRAPHICS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  CUSTOMERSEGMENT for s4.CUSTOMERSEGMENT;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  CUSTOMERSEGMENTTYPE for s4.CUSTOMERSEGMENTTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  CUSTOMERTYPE for s4.CUSTOMERTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  EFC_0 for s4.EFC_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  EFC_1 for s4.EFC_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  ENTERPRISEPRODUCT for s4.ENTERPRISEPRODUCT;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  JA27_0 for s4.JA27_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  JA27_1 for s4.JA27_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  LFL_0 for s4.LFL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  LFL_1 for s4.LFL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  LFS_0 for s4.LFS_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  LFS_1 for s4.LFS_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRICINGAUTHORIZEDUSER for s4.PRICINGAUTHORIZEDUSER;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  LIFESTAGES for s4.LIFESTAGES;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  LOCATION for s4.LOCATION;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  LOOKUP for s4.LOOKUP;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  LOOKUPTYPE for s4.LOOKUPTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MAILED for s4.MAILED;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MEMOACCOUNT for s4.MEMOACCOUNT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  MEMOACCOUNTLINK for s4.MEMOACCOUNTLINK;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MEMOADDRESS for s4.MEMOADDRESS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MEMOCOMMERCIAL for s4.MEMOCOMMERCIAL;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  MEMOCONSUMER for s4.MEMOCONSUMER;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MEMOEMAIL for s4.MEMOEMAIL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MEMOPHONE for s4.MEMOPHONE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  MESSAGE for s4.MESSAGE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MESSAGECATEGORY for s4.MESSAGECATEGORY;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  MPL_0 for s4.MPL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  MPL_1 for s4.MPL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  NETDOWN for s4.NETDOWN;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  OFFER for s4.OFFER;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  OFFERCL for s4.OFFERCL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  OFFERNOMAIL for s4.OFFERNOMAIL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  OFFERTYPE for s4.OFFERTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  PRICINGCREDITCARD for s4.PRICINGCREDITCARD;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  OSD_0 for s4.OSD_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  OSD_1 for s4.OSD_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PCYCLE for s4.PCYCLE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PHONETYPE for s4.PHONETYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRICINGGENERIC for s4.PRICINGGENERIC;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRICINGGROUP for s4.PRICINGGROUP;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRICINGGROUPREF for s4.PRICINGGROUPREF;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRICINGSEARSCREDITCARD for s4.PRICINGSEARSCREDITCARD;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRIORITY for s4.PRIORITY;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRIVACYPREFERENCES for s4.PRIVACYPREFERENCES;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  PRIZM for s4.PRIZM;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODACTINFO_REWARDS for s4.PRODACTINFO_REWARDS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODOFFREQSEGMENT for s4.PRODOFFREQSEGMENT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRODOFFREQVALUE for s4.PRODOFFREQVALUE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRODUCT for s4.PRODUCT;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODUCTACTIVITYINFO_0 for s4.PRODUCTACTIVITYINFO_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODUCTACTIVITYINFO_1 for s4.PRODUCTACTIVITYINFO_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODUCTGROUP for s4.PRODUCTGROUP;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRODUCTGROUPREF for s4.PRODUCTGROUPREF;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRODUCTOFFER for s4.PRODUCTOFFER;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PROFITABILITY for s4.PROFITABILITY;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PROFITABILITYSOURCE for s4.PROFITABILITYSOURCE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  RANGELOOKUP for s4.RANGELOOKUP;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  RANGELOOKUPTYPE for s4.RANGELOOKUPTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  REPORTCARDLOG for s4.REPORTCARDLOG;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  REWARDLOGINFO for s4.REWARDLOGINFO;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  RISK for s4.RISK;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  RISKSOURCE for s4.RISKSOURCE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  RPI_0 for s4.RPI_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  RPI_1 for s4.RPI_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SOLICITATION_OLD for s4.SOLICITATION_OLD;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SOL_0 for s4.SOL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  SOL_1 for s4.SOL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  SOURCECODE_0 for s4.SOURCECODE_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SOURCECODE_1 for s4.SOURCECODE_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  STATTAB for s4.STATTAB;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  SUGGESTEDPRODUCT for s4.SUGGESTEDPRODUCT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SUPPRESS_PERIOD for s4.SUPPRESS_PERIOD;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  TIMESCHEDULE for s4.TIMESCHEDULE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  TINTYPE for s4.TINTYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  TRANSLATION for s4.TRANSLATION;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  VENDOR for s4.VENDOR;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  WEB_ACCOUNT_DETAIL_0 for s4.WEB_ACCOUNT_DETAIL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  XLOGTABLE for s4.XLOGTABLE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  WEB_ACCOUNT_DETAIL_1 for s4.WEB_ACCOUNT_DETAIL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  WEB_DETAIL_TYPE_DETAIL_0 for s4.WEB_DETAIL_TYPE_DETAIL_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  WEB_DETAIL_TYPE_DETAIL_1 for s4.WEB_DETAIL_TYPE_DETAIL_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  WEB_LABELS_0 for s4.WEB_LABELS_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  WEB_LABELS_1 for s4.WEB_LABELS_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  XFULFILLCHANNEL for s4.XFULFILLCHANNEL;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  XFULFILLCHANNELEXCEP for s4.XFULFILLCHANNELEXCEP;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  XFULFILLCHANNELTIMESCH for s4.XFULFILLCHANNELTIMESCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  XFULFILLCHANNELTRACK for s4.XFULFILLCHANNELTRACK;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PI_1 for s4.PI_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PI_0 for s4.PI_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PAYMENTINCENTIVES_OVERFLOW for s4.PAYMENTINCENTIVES_OVERFLOW;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  HILOSEQUENCES for s4.HILOSEQUENCES;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:19 SQL> create synonym  SERVER_LOOKUP_TB for s4.SERVER_LOOKUP_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  ADVERSE_ACTION_LOG for s4.ADVERSE_ACTION_LOG;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  SYSPRIN_0 for s4.SYSPRIN_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SYSPRIN_1 for s4.SYSPRIN_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  TMP_PI for s4.TMP_PI;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  ONR_1 for s4.ONR_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  ONR_0 for s4.ONR_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  OIL_XREF_0 for s4.OIL_XREF_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SRS_XREF_0 for s4.SRS_XREF_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  SRS_XREF_1 for s4.SRS_XREF_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  APA_ARGMT_ELIGIBILITY for s4.APA_ARGMT_ELIGIBILITY;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_BCOTTAGF2_0 for s4.APA_BCOTTAGF2_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_CONCESSIONS for s4.APA_CONCESSIONS;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_NC_BUCKET_MONTHS for s4.APA_NC_BUCKET_MONTHS;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  ARN_COUNTER_0 for s4.ARN_COUNTER_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  ARRANG_TYPE for s4.ARRANG_TYPE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  BILLING_CALENDAR_0 for s4.BILLING_CALENDAR_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  BVH for s4.BVH;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  CLIENT_INFO_BY_SPA for s4.CLIENT_INFO_BY_SPA;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  COOLOFF_PERIOD for s4.COOLOFF_PERIOD;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:19 SQL> create synonym  COOLOFF_PERIOD2_0 for s4.COOLOFF_PERIOD2_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  FEMAZIPCODE_OLD for s4.FEMAZIPCODE_OLD;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  FUN_HOLIDAY_0 for s4.FUN_HOLIDAY_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PI_ARRANGEMENT for s4.PI_ARRANGEMENT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  SETTLEMENT_PERCENTAGES for s4.SETTLEMENT_PERCENTAGES;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  TTAG for s4.TTAG;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  TTAG_PROMPT for s4.TTAG_PROMPT;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PROMO_DETAILS for s4.PROMO_DETAILS;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_NC_BUCKET_MONTHS2 for s4.APA_NC_BUCKET_MONTHS2;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_BCOTTAGF for s4.APA_BCOTTAGF;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  FEMAZIPCODE_10152010 for s4.FEMAZIPCODE_10152010;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  BILLING_CALENDAR_1 for s4.BILLING_CALENDAR_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  FUN_HOLIDAY_1 for s4.FUN_HOLIDAY_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  ARN_COUNTER_1 for s4.ARN_COUNTER_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  APA_BCOTTAGF2_1 for s4.APA_BCOTTAGF2_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  COOLOFF_PERIOD2_1 for s4.COOLOFF_PERIOD2_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  ACCOUNT_BUREAU_TMP for s4.ACCOUNT_BUREAU_TMP;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  ACCOUNT_BUREAU for s4.ACCOUNT_BUREAU;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PI_COMPARE for s4.PI_COMPARE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PI_UPDATE for s4.PI_UPDATE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  JARICH for s4.JARICH;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  JARICH_UPD for s4.JARICH_UPD;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:19 SQL> create synonym  JARICH_2 for s4.JARICH_2;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  JARICH_1 for s4.JARICH_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  PRICING_1 for s4.PRICING_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  PRICING_0 for s4.PRICING_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:19 SQL> create synonym  FEMAZIPCODE_0 for s4.FEMAZIPCODE_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  FEMAZIPCODE_1 for s4.FEMAZIPCODE_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:19 SQL> create synonym  ACCOUNT_BUREAU_20110121 for s4.ACCOUNT_BUREAU_20110121;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:19 SQL> create synonym  AUDIT_TYPE_LOOKUP_TB for s4.AUDIT_TYPE_LOOKUP_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  CLIENT_INFO_BY_SPA_20110321 for s4.CLIENT_INFO_BY_SPA_20110321;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  ACCOUNT_BUREAU_0117 for s4.ACCOUNT_BUREAU_0117;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  RFD for s4.RFD;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  CONFIG_PROPERTIES_TB for s4.CONFIG_PROPERTIES_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  ASP_SUP_0 for s4.ASP_SUP_0;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  ASP_SUP_1 for s4.ASP_SUP_1;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  PI_ON9056_NOT9046 for s4.PI_ON9056_NOT9046;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  PI_ON9046_NOT9056 for s4.PI_ON9046_NOT9056;
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+15:49:20 SQL> create synonym  SPECIAL_USER_CODES_TB for s4.SPECIAL_USER_CODES_TB;
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+15:49:20 SQL> create synonym  CITCODE for s4.CITCODE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  PROMO_DETAILS_TMP for s4.PROMO_DETAILS_TMP;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  PRODUCTACTIVITYINFO_ARCH for s4.PRODUCTACTIVITYINFO_ARCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  BALANCETRANSFERDETAIL_ARCH for s4.BALANCETRANSFERDETAIL_ARCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  ACTIVITYCUSTOMERLINK_ARCH for s4.ACTIVITYCUSTOMERLINK_ARCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  ACTIVITYLOG_ARCH for s4.ACTIVITYLOG_ARCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  PHONE for s4.PHONE;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  EMAIL for s4.EMAIL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  ACTIVITYACCOUNTLINK_ARCH for s4.ACTIVITYACCOUNTLINK_ARCH;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  CONSUMER for s4.CONSUMER;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> create synonym  ADDRESS for s4.ADDRESS;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  ACCOUNTLINK for s4.ACCOUNTLINK;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  COMMERCIAL for s4.COMMERCIAL;
+
+Synonym created.
+
+Elapsed: 00:00:00.00
+15:49:20 SQL> create synonym  ACCOUNT for s4.ACCOUNT;
+
+Synonym created.
+
+Elapsed: 00:00:00.01
+15:49:20 SQL> 
+15:49:20 SQL> spool off

@@ -1,0 +1,24 @@
+# to use this:
+# screen -c $HOME/.screenrc.home
+# read normal .screenrc
+source $HOME/.screenrc
+
+screen -t home 0
+screen -t javacServer 1
+screen -t tdd 2 
+screen -t singletest 3
+screen -t javacompliler 4
+screen -t shell 5
+#screen -t eclim bash -c "starteclim" 3
+# start with main 'shell' window showing
+select 1
+stuff "javacServer.sh \012"
+select 2
+stuff "cd /opt/workspace/tdd \012 vim --servername vim \012"
+select 3
+stuff "cd /opt/workspace/singletest \012"
+select 4
+stuff "cd /opt/workspace/javacompiler \012"
+#select 5
+#stuff "starteclim \012"
+select 0

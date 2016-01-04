@@ -1,0 +1,51 @@
+!baskerville-ivorylight
+
+!xterm*background:  #FEF9EC
+!xterm*foreground:  #6D727E
+
+xterm*colorBD:     #3E424D
+xterm*colorIT:     #3E424D
+xterm*colorUL:     #3E424D
+
+!xterm*cursorColor: #007693
+
+! BLACK
+xterm*color0:      #C5C1B4
+xterm*color8:      #A1A6B2
+
+! WHITE
+xterm*color7:      #3E424D
+xterm*color15:     #282C36
+
+! RED
+xterm*color1:      #E75C58
+xterm*color9:      #B22B31
+
+! YELLOW
+xterm*color3:      #A08A00
+xterm*color11:     #715F00
+
+! GREEN
+xterm*color2:      #00A250
+xterm*color10:     #007427
+
+! CYAN
+xterm*color6:      #00A4C1
+xterm*color14:     #007693
+
+! BLUE
+xterm*color4:      #208FFB
+xterm*color12:     #0065CA
+
+! MAGENTA
+xterm*color5:      #D160C4
+xterm*color13:     #A03196
+
+xterm*background:            #FEF9EC
+xterm*foreground:            #6D727E
+xterm*fading:                40
+xterm*fadeColor:             #FEF9EC
+xterm*cursorColor:           #007693
+xterm*pointerColorBackground:#007427
+xterm*pointerColorForeground:#007693
+

@@ -1,0 +1,124 @@
+[submodule ".vim/bundle/vdebug"]
+	path = .vim/bundle/vdebug
+	url = git@ssh.github.com:joonty/vdebug.git
+    ignore = dirty
+[submodule ".vim/bundle/phpunit-qf"]
+	path = .vim/bundle/phpunit-qf
+	url = git@ssh.github.com:vim-scripts/PHPUnit-QF.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = git@ssh.github.com:tpope/vim-pathogen.git
+    ignore = dirty
+[submodule ".vim/bundle/screen"]
+	path = .vim/bundle/screen
+	url = git@ssh.github.com:ervandew/screen.git
+    ignore = dirty
+[submodule ".vim/bundle/ack.vim"]
+	path = .vim/bundle/ack.vim
+	url = git@ssh.github.com:mileszs/ack.vim.git
+    ignore = dirty
+[submodule ".vim/bundle/auto_mkdir"]
+	path = .vim/bundle/auto_mkdir
+	url = git@ssh.github.com:DataWraith/auto_mkdir.git
+    ignore = dirty
+[submodule ".vim/bundle/xterm-color-table"]
+	path = .vim/bundle/xterm-color-table
+	url = git@ssh.github.com:guns/xterm-color-table.vim.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git@ssh.github.com:altercation/vim-colors-solarized.git
+    ignore = dirty
+[submodule ".vim/bundle/tlib"]
+	path = .vim/bundle/tlib
+	url = git@ssh.github.com:vim-scripts/tlib.git
+    ignore = dirty
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = git@ssh.github.com:majutsushi/tagbar.git
+    ignore = dirty
+[submodule "bin/PHP_CodeSniffer"]
+	path = bin/PHP_CodeSniffer
+	url = git@ssh.github.com:squizlabs/PHP_CodeSniffer.git
+    ignore = dirty
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git@ssh.github.com:scrooloose/syntastic.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-twig"]
+	path = .vim/bundle/vim-twig
+	url = git@github.com:evidens/vim-twig.git
+    ignore = dirty
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = git@ssh.github.com:kien/ctrlp.vim.git
+    ignore = dirty
+[submodule ".vim/bundle/vspec"]
+	path = .vim/bundle/vspec
+	url = git@ssh.github.com:kana/vim-vspec.git
+    ignore = dirty
+[submodule "bin/phpmd"]
+	path = bin/phpmd
+	url = git@ssh.github.com:phpmd/phpmd.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-flavor"]
+	path = .vim/bundle/vim-flavor
+	url = git@ssh.github.com:kana/vim-flavor.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-less"]
+	path = .vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-css-color"]
+	path = .vim/bundle/vim-css-color
+	url = https://github.com/skammer/vim-css-color
+    ignore = dirty
+[submodule ".vim/bundle/vim-powerline"]
+	path = .vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline
+    ignore = dirty
+[submodule "/Users/marcinbe/.vim/bundle/vim-javascript-syntax"]
+	path = .vim/bundle/vim-javascript-syntax
+	url = git@ssh.github.com:jelera/vim-javascript-syntax.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = git@ssh.github.com:pangloss/vim-javascript.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-indent-guides"]
+	path = .vim/bundle/vim-indent-guides
+	url = git@ssh.github.com:nathanaelkane/vim-indent-guides.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = git@ssh.github.com:tpope/vim-fugitive.git
+    ignore = dirty
+[submodule ".vim/bundle/tern_for_vim"]
+	path = .vim/bundle/tern_for_vim
+	url = git@ssh.github.com:marijnh/tern_for_vim.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-scala"]
+	path = .vim/bundle/vim-scala
+	url = git@ssh.github.com:derekwyatt/vim-scala.git
+    ignore = dirty
+[submodule ".vim/bundle/AutoFenc"]
+	path = .vim/bundle/AutoFenc
+	url = https://github.com/s3rvac/AutoFenc
+    ignore = dirty
+[submodule ".vim/bundle/vim-vingegar"]
+	path = .vim/bundle/vim-vingegar
+	url = https://github.com/tpope/vim-vinegar.git
+    ignore = dirty
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@ssh.github.com:robbyrussell/oh-my-zsh.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-g"]
+	path = .vim/bundle/vim-g
+	url = git@ssh.github.com:szw/vim-g.git
+    ignore = dirty
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = git@ssh.github.com:vim-ruby/vim-ruby.git
+    ignore = dirty

@@ -1,0 +1,37 @@
+alias sqlpmidevd1='rlwrap sqlplus pmi_d1/pmi_d1@PMD1'
+alias sqlpmidevd2='rlwrap sqlplus pmi_d2/pmi_d2@PMD1'
+alias sqlpmiuat='rlwrap sqlplus pmi_i1/pmi_i1@PMI1'
+
+alias sshpmidev="ssh mbedna@pmzlap01.uk.acxiom.com" 
+alias sshpmiuat="ssh mbedna@pmplap03.uk.acxiom.com"
+
+export DRIVE=/cygdrive/c
+
+#export TNS_ADMIN=~
+
+
+
+#export GIT_SSH=/home/mbednarek/bin/bitbucket_ssh
+
+#alias sqldnbdevmbedna='rlwrap.exe sqlplus mbedna/haslo@DNB_TL_DEV'
+#alias sqldnbdevtldev='rlwrap.exe sqlplus TL_DEV/TL_DEV@DNB_TL_DEV'
+#alias sqldnbdevshr='rlwrap.exe sqlplus SHR/'"'"'shr#9$1'"'"'@DNB_TL_DEV'
+#alias sqldnbtestshr='rlwrap.exe sqlplus SHR/'"'"'shr#9$1'"'"'@DNB_TL_TEST'
+#alias sqldnbiseshr='rlwrap.exe sqlplus SHR/'"'"'shr#9$1'"'"'@DNB_TL_ISE'
+#alias sqldnbisegdm='rlwrap.exe sqlplus GDM/'"'"'gdm#9$1'"'"'@DNB_TL_ISE'
+#alias sqldnbisesar='rlwrap.exe sqlplus SAR/'"'"'sar#9$1'"'"'@DNB_TL_ISE'
+#alias sqldnbqasar='rlwrap.exe sqlplus SAR/'"'"'sar#9$1'"'"'@DNB_TL_QA'
+#
+#alias sshdnbdev="ssh mbedna@dbsltopap01.us.dnb.com"
+#alias sshdnbut="ssh mbedna@dbsltoput01.us.dnb.com"
+#alias sshdnbise="ssh mbedna@dbiltopap01.uk.dnb.com"
+#alias sshdnbqa="ssh mbedna@dbqltopap01.uk.dnb.com"
+#alias sshdnbdb="ssh mbedna@dbsltopdb01.us.dnb.com"
+#alias sshdnbppa="ssh mbedna@ppaweb02.corp.acxiom.net"
+#alias sshdnbprod1="ssh mbedna@dbpltopap01.us.dnb.com"
+#alias sshdnbprod2="ssh mbedna@dbpltopap02.us.dnb.com"
+#alias sshdnbprod3="ssh mbedna@dbpltopap03.us.dnb.com"
+#alias sshdnbprod4="ssh mbedna@dbpltopap04.us.dnb.com"
+#
+#ssh -L 2022:topicscluster1-dev.dnb.com:1414 mbedna@dbsltopap01.us.dnb.com
+

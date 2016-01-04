@@ -1,0 +1,9 @@
+" Remove key mapping in normal mode
+iunmap <M-a>
+iunmap <M-o>
+iunmap <M-e>
+iunmap <M-l>
+iunmap <M-c>
+iunmap <M-s>
+iunmap <M-z>
+iunmap <M-n>

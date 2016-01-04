@@ -1,0 +1,33 @@
+! Black
+xterm*color0:   #303030
+xterm*color8:   #5F5F5F
+
+! Red
+xterm*color1:   #c03000
+xterm*color9:   #FF3A78
+
+! Green
+xterm*color2:   #b1d631
+xterm*color10:  #A6CD07
+
+! Yellow
+xterm*color3:   #fecf35
+xterm*color11:  #B5C865
+
+! Blue
+xterm*color4:   #426870
+xterm*color12:  #4A7781
+
+! Magenta
+xterm*color5:   #6D506D
+xterm*color13:  #FF3B77
+
+! Cyan
+xterm*color6:   #4bb5c1
+xterm*color14:  #4bb5c1
+
+! White
+xterm*color7:   #e2e2e5
+xterm*color15:  #e2e2e5
+
+! vim: et sw=2 syn=xdefaults

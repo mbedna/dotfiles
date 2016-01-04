@@ -1,0 +1,10 @@
+#!/bin/bash
+START=$(date +%s.%N)
+
+
+java -cp C:/Java/checkstyle-5.6/checkstyle-5.6-all.jar com.puppycrawl.tools.checkstyle.Main -c C:/Java/checkstyle-5.6/sun_checks.xml /cygdrive/c/workspacepmi/trunk/JAVA/src/main/java/com/acxiom/pmi/spice/autologin/AutoLoginFacade.java 
+
+#/cygdrive/c/Java/jdk1.7.0_21/bin/javac -d C:\\cygwin\\tmp -cp 'C:\\m2\\repository\\ch\\qos\\logback\\logback-classic\\1.0.6\\logback-classic-1.0.6.jar;C:\\m2\\repository\\ch\\qos\\logback\\logback-core\\1.0.6\\logback-core-1.0.6.jar;C:\\m2\\repository\\com\\google\\guava\\guava\\13.0\\guava-13.0.jar;C:\\m2\\repository\\com\\oracle\\ojdbc6\\11.2.0.3\\ojdbc6-11.2.0.3.jar;;C:\\m2\\repository\\javax\\mail\\mail\\1.4\\mail-1.4.jar;C:\\m2\\repository\\javax\\servlet\\servlet-api\\2.5\\servlet-api-2.5.jar;C:\\m2\\repository\\javax\\validation\\validation-api\\1.1.0.Alpha1\\validation-api-1.1.0.Alpha1.jar;C:\\m2\\repository\\joda-time\\joda-time\\2.1\\joda-time-2.1.jar;C:\\m2\\repository\\junit\\junit\\4.10\\junit-4.10.jar;C:\\m2\\repository\\org\\glassfish\\javax.annotation\\3.1.1-b06\\javax.annotation-3.1.1-b06.jar;C:\\m2\\repository\\org\\glassfish\\metro\\webservices-api\\2.2.0-1\\webservices-api-2.2.0-1.jar;C:\\m2\\repository\\org\\glassfish\\metro\\webservices-rt\\2.2.0-1\\webservices-rt-2.2.0-1.jar;C:\\m2\\repository\\org\\hamcrest\\hamcrest-all\\1.3\\hamcrest-all-1.3.jar;C:\\m2\\repository\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar;C:\\m2\\repository\\org\\hibernate\\hibernate-validator\\5.0.0.Alpha1\\hibernate-validator-5.0.0.Alpha1.jar;C:\\m2\\repository\\org\\jboss\\logging\\jboss-logging\\3.1.1.GA\\jboss-logging-3.1.1.GA.jar;C:\\m2\\repository\\org\\jvnet\\jaxb2_commons\\jaxb2-basics-runtime\\0.6.4\\jaxb2-basics-runtime-0.6.4.jar;C:\\m2\\repository\\org\\mockito\\mockito-all\\1.9.5-rc1\\mockito-all-1.9.5-rc1.jar;C:\\m2\\repository\\org\\slf4j\\slf4j-api\\1.6.5\\slf4j-api-1.6.5.jar;C:\\m2\\repository\\javax\\activation\\activation\\1.1\\activation-1.1.jar;target/classes' c:/workspacepmi/trunk/JAVA/src/main/java/com/acxiom/pmi/spice/autologin/AutoLoginFacade.java
+END=$(date +%s.%N)
+DIFF=$(echo "$END - $START" | bc)
+echo $DIFF

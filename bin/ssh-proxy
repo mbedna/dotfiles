@@ -1,0 +1,102 @@
+#!/bin/bash
+#
+# Simple shell wrapper to proxy/tunnel or hop through ssh
+# appropriately when unable to connect directly.  Often useful on
+# laptops, espeically when only SOMETIMES behind a draconian firewall
+# or outside a network with limited ssh connections inbound.
+#
+# Indended for use inside an ssh-config file, something like this:
+#    Host *
+#      ProxyCommand $HOME/.ssh/proxy -p httpproxy.foo.com:8080 %h %p
+#  or 
+#      ProxyCommand $HOME/.ssh/proxy -h ssh-hop.foo.com:8080 %h %p
+#
+# Generally, the usage of this is:
+#    proxy [optional-args] [-p <http-proxy>[:<proxy-port>]] \
+#                          [-h <ssh-hop-host>[:<hop-port>]] <host> <port>
+# with optional args:
+#   [-n <netcat>] - version or path to netcat/direct-connect program
+#   [-t <tunnel>] - version or path of http-tunnel program
+#   [-w <timout>] - timeout (seconds) to test connection to proxy server
+#
+# This script assumes ssh, netcat (nc) and corkscrew (an http-proxy
+# available from http://www.agroman.net/corkscrew).  As an alternative
+# to corkscrew, some people have repoted success using desproxy
+# (http://sourceforge.net/projects/desproxy/).
+#
+# Netcat is used both to detect the availablility of the destination
+# or proxy hosts as well as for direct connections.  Both are assumed
+# to be resident in your PATH.  If not, you may specify a different
+# http-proxy or alternate location for netcat on the command line (in
+# your ssh config) OR, of course, "use the source, Luke"...
+#
+# Author:  Eric Engstrom (engstrom(-AT-)m t u(-DOT-)n e t)
+#
+# To Do:  
+#   * Should accept multiple hop or proxy and construct chained command
+#
+# $Id: ssh-proxy 5314 2010-02-08 15:38:46Z engstrom $
+##
+
+# set to "echo" to debug; use -v option to ssh to see output
+DEBUG=
+
+# defaults
+ssh=ssh
+agent="-A"         # forward agent
+tunnel=corkscrew
+timeout=8
+
+# if "nc" not found, try "netcat"; check later
+netcat=nc
+if ! type -p ${netcat} >/dev/null 2>&1; then
+  netcat="netcat"
+fi
+
+# parse args - can specify -n <netcat> and/or -t <tunnel>
+while getopts "n:h:p:s:t:w:" OPT; do
+  #echo "$OPT $OPTARG $OPTIND"
+  case $OPT in
+    h) arr=(${OPTARG//:/ }); hop="${arr[0]} ${arr[1]:+ -p ${arr[1]}}" ;;
+    p) arr=(${OPTARG//:/ }); proxy="${arr[0]} ${arr[1]}" ;;
+    n) netcat=$OPTARG ;;
+    s) ssh=$OPTARG ;;
+    t) tunnel=$OPTARG ;;
+    w) timeout=$OPTARG ;;
+  esac
+done
+shift $(($OPTIND - 1))
+
+# At this point $3 and $4 should be destination host and port, if specified.
+desthost=$1
+destport=${2:-22}  # default to port 22
+
+echo  ${desthost} ${destport} ${proxy} 1>&2
+# Check ability to use netcat now, after user specifies it
+if ! type -p ${netcat} >/dev/null 2>&1; then
+  echo "Cannot find netcat - failing..." 1>&2
+  exit 1;
+fi
+# test connection to host directly; go direct if possible, else tunnel or hop
+if ${netcat} -w ${timeout} -z ${desthost} ${destport} >/dev/null 2>&1; then
+  $DEBUG exec ${netcat} ${desthost} ${destport}
+
+# else, if proxy defined, then try that
+elif [ -n "${proxy}" ]; then
+  $DEBUG exec ${tunnel} ${proxy} ${desthost} ${destport}
+
+
+# else, if hop defined, then try that
+elif [ -n "${hop}" ]; then
+  #$DEBUG exec ${ssh} ${agent} ${hop} ${netcat} ${desthost} ${destport} 1>&2 
+  # Seems like use of exec causes error on exit - not sure why.
+  # [engstrom:20090809.2228CST]
+  $DEBUG ${ssh} ${agent} ${hop} ${netcat} ${desthost} ${destport}
+
+# otherwise, we got SUEd...
+else
+  echo "No proxy or hop host specified - failing....." 1>&2
+  exit 1;
+fi
+
+##

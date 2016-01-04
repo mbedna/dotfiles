@@ -1,0 +1,46 @@
+#!/bin/bash
+#
+# This program is free software. It comes without any warranty, to
+# the extent permitted by applicable law. You can redistribute it
+# and/or modify it under the terms of the Do What The Fuck You Want
+# To Public License, Version 2, as published by Sam Hocevar. See
+# http://sam.zoy.org/wtfpl/COPYING for more details.
+#
+
+# Version 3, enhanced for Ubuntu 13.X+, Fedora 19+, and similar distros.
+# Runs on all GNU/Linux distros (install cifs-utils)
+
+# Author: Daniel Graziotin <dgraziotin AT task3 DOT cc> - http://task3.cc
+# Purpose: Check if there is a TimeCapsule in your network and mount it
+#     for use it under Gnu/Linux. Unmount it if it is already mounted.
+#	   The mount point is created and destroyed after use (for prevent
+#	   automatic backup software to backup in the directory if the device
+#	   is not mounted)
+# Instructions:
+#   1) Install cifs-utils (sudo apt-get install cifs-utils)
+#		1) Change the first four variables according to your configuration.
+#		2) Run this program at boot when your network is already
+#		   set up. Also, run it on logoff to umount Time Capsule.
+
+echo -n "Password > "
+read TIMECAPSULE_PASSWORD
+TIMECAPSULE_IP="192.168.1.1"                         # e.g. "192.168.1.100"
+TIMECAPSULE_VOLUME="/Time\ Capsule"       # also try "/Data"
+MOUNT_POINT=/mnt/timecapsule	            # no need to create the directory
+
+
+IS_MOUNTED=`mount 2> /dev/null | grep "$MOUNT_POINT" | cut -d' ' -f3`
+TIMECAPSULE_PATH="//$TIMECAPSULE_IP$TIMECAPSULE_VOLUME"
+
+if [[ "$IS_MOUNTED" ]] ;then
+	sudo umount $MOUNT_POINT
+	sudo rmdir $MOUNT_POINT
+else
+	CHECK_TIMECAPSULE=`smbclient --no-pass -L $TIMECAPSULE_IP 2>&1 > /dev/null | grep -m1 -i apple`
+	if [[ "$CHECK_TIMECAPSULE" =~ "Apple" ]] ;then
+		sudo mkdir -p $MOUNT_POINT
+        sudo chmod 777 $MOUNT_POINT
+        MOUNT="sudo mount.cifs $TIMECAPSULE_PATH $MOUNT_POINT -o pass=$TIMECAPSULE_PASSWORD,file_mode=0777,dir_mode=0777,sec=ntlm"
+		echo $MOUNT | /bin/bash
+	fi
+fi

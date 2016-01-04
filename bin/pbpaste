@@ -1,0 +1,10 @@
+#!/bin/bash
+. env.sh
+
+echo $platform
+
+if [[ $platform == 'linux' ]]; then
+	xsel --clipboard --output
+elif [[ $platform == 'cygwin' ]]; then
+	getclip
+fi

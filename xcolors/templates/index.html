@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}theme index{% endblock %}
+{% block description %}
+    <meta name="description" content='A color theme index for Xresouces aware terminals. See theme previews and contribute your own.' />
+{% endblock %}
+{% block content %}
+<div class="themes">
+    {% for theme in themes|sort %}
+        {% set loop_revindex = loop.revindex %}
+        <div class="theme-container">
+            <a href="{{ url_for('download', filename=theme) }}">
+                <span class="download">{{ theme }}</span>
+            </a>
+            {% include theme|html_path %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

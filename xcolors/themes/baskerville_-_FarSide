@@ -1,0 +1,37 @@
+!baskerville - FarSide
+
+xterm*background:  #000000
+xterm*foreground:  #919191
+
+
+! BLACK
+xterm*color0:      #303030
+xterm*color8:      #5E5E5E
+
+! WHITE
+xterm*color7:      #C6C6C6
+xterm*color15:     #FFFFFF
+
+! RED
+xterm*color1:      #A43261
+xterm*color9:      #FF9FC9
+
+! YELLOW
+xterm*color3:      #007086
+xterm*color11:     #00DDF4
+
+! GREEN
+xterm*color2:      #006CA5
+xterm*color10:     #3BD6FF
+
+! CYAN
+xterm*color6:      #0061B1
+xterm*color14:     #93C9FF
+
+! BLUE
+xterm*color4:      #6751A6
+xterm*color12:     #D5B8FF
+
+! MAGENTA
+xterm*color5:      #913E88
+xterm*color13:     #FFA7F6

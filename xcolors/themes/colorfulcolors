@@ -1,0 +1,24 @@
+!Negro-----------
+xterm*color0: #151515
+xterm*color8: #696969
+!Rojo------------
+xterm*color1: #FF8EAF
+xterm*color9: #ED4C7A
+!Verde------------
+xterm*color2:  #A6E25F
+xterm*color10: #A6E179
+!Amarillo---------
+xterm*color3: #F8E578
+xterm*color11: #FFDF6B
+!Azul-------------
+xterm*color4: #A6E2F0
+xterm*color12: #79D2FF
+!Magenta----------
+xterm*color5: #E85B92
+xterm*color13: #BB5D79
+!Cyan-------------
+xterm*color6: #5F868F
+xterm*color14: #87A8AF
+!Blanco-----------
+xterm*color7: #D5F1F2
+xterm*color15: #E2F1F6
