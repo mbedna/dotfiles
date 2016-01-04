@@ -1,3 +1,15 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@ssh.github.com:robbyrussell/oh-my-zsh.git
+    ignore = dirty
+[submodule "bin/PHP_CodeSniffer"]
+	path = bin/PHP_CodeSniffer
+	url = git@ssh.github.com:squizlabs/PHP_CodeSniffer.git
+    ignore = dirty
+[submodule "bin/phpmd"]
+	path = bin/phpmd
+	url = git@ssh.github.com:phpmd/phpmd.git
+    ignore = dirty
 [submodule ".vim/bundle/vdebug"]
 	path = .vim/bundle/vdebug
 	url = git@ssh.github.com:joonty/vdebug.git
@@ -38,10 +50,6 @@
 	path = .vim/bundle/tagbar
 	url = git@ssh.github.com:majutsushi/tagbar.git
     ignore = dirty
-[submodule "bin/PHP_CodeSniffer"]
-	path = bin/PHP_CodeSniffer
-	url = git@ssh.github.com:squizlabs/PHP_CodeSniffer.git
-    ignore = dirty
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = git@ssh.github.com:scrooloose/syntastic.git
@@ -57,10 +65,6 @@
 [submodule ".vim/bundle/vspec"]
 	path = .vim/bundle/vspec
 	url = git@ssh.github.com:kana/vim-vspec.git
-    ignore = dirty
-[submodule "bin/phpmd"]
-	path = bin/phpmd
-	url = git@ssh.github.com:phpmd/phpmd.git
     ignore = dirty
 [submodule ".vim/bundle/vim-flavor"]
 	path = .vim/bundle/vim-flavor
@@ -109,10 +113,6 @@
 [submodule ".vim/bundle/vim-vingegar"]
 	path = .vim/bundle/vim-vingegar
 	url = https://github.com/tpope/vim-vinegar.git
-    ignore = dirty
-[submodule ".oh-my-zsh"]
-	path = .oh-my-zsh
-	url = git@ssh.github.com:robbyrussell/oh-my-zsh.git
     ignore = dirty
 [submodule ".vim/bundle/vim-g"]
 	path = .vim/bundle/vim-g
