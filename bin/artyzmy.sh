@@ -20,7 +20,7 @@ currentDir=`pwd`
 mkdir -p $currentDir/workLogs
 logName=$currentDir/workLogs/worklog-$author-$startDate-$endDateFile.log
 `echo '' > $logName`
-for repo in `ls -d /smart/*/ | egrep -v 'capd-project'`
+for repo in `ls -d /smart1/*/ | egrep -v 'capd-project'`
 do
     echo $repo
         
