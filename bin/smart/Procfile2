@@ -1,0 +1,4 @@
+nuvo-rest-api: ~/bin/smart/go-nuvo-rest-api2.sh
+pro-serv-web-app: ~/bin/smart/go-pro-serv-web-app2.sh
+workday-smart-webapp: ~/bin/smart/go-workday-smart-webapp2.sh
+#worker: ~/bin/smart/go-worker2.sh

@@ -8,9 +8,6 @@ if [ -f "${HOME}/.bash_variables" ]; then
   source "${HOME}/.bash_variables"
 fi
 
-if [ -f "${HOME}/.bash_profile_smart1" ]; then
-  source "${HOME}/.bash_profile_smart1"
-fi
 #export LC_ALL="pl_PL.ISO-8859-2"
 #export LANGUAGE="pl_PL.ISO-8859-2"
 
