@@ -107,22 +107,22 @@ alias mit='mvn -DskipITs=false integration-test'
 alias mgs='mvn generate-sources'
 
 if [ -f ./sbt ]; then
-    alias sccg='./sbt clean compile test:compile gen-idea'
-    alias sccd='./sbt clean compile test:compile dist'
+    alias sccg='./sbt -mem 4000 clean compile test:compile gen-idea'
+    alias sccd='./sbt -mem 4000 clean compile test:compile dist'
     alias st='./sbt test'
     alias sa='./sbt assembly'
     alias secdc='./sbt "export compile:dependency-classpath"'
     alias spl='./sbt publish-local'
-    alias scc='./sbt clean compile'
+    alias scc='./sbt -mem 4000 clean compile'
     alias sg='./sbt gen-idea'
 else
-    alias sccg='sbt clean compile test:compile gen-idea'
-    alias sccd='sbt clean compile test:compile dist'
+    alias sccg='sbt -mem 4000 clean compile test:compile gen-idea'
+    alias sccd='sbt -mem 4000 clean compile test:compile dist'
     alias st='sbt test'
     alias sa='sbt assembly'
     alias secdc='sbt "export compile:dependency-classpath"'
     alias spl='sbt publish-local'
-    alias scc='sbt clean compile'
+    alias scc='sbt -mem 4000 clean compile'
     alias sg='sbt gen-idea'
 fi
 

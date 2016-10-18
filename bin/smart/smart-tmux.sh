@@ -8,11 +8,11 @@ tmux send-keys -t smart:1 'gosmart1' C-m
 tmux new-window -n 'smart1' -t smart:2
 tmux send-keys -t smart:2 'gosmart1' C-m
 
-tmux new-window -n 'smart2' -t smart:3
-tmux send-keys -t smart:3 'gosmart2' C-m
+tmux new-window -n 'smart1' -t smart:3
+tmux send-keys -t smart:3 'gosmart1' C-m
 
-tmux new-window -n 'smart2' -t smart:4
-tmux send-keys -t smart:4 'gosmart2' C-m
+tmux new-window -n 'smart1' -t smart:4
+tmux send-keys -t smart:4 'gosmart1' C-m
 
 tmux new-window -n 'startsmart1' -t smart:5
 tmux send-keys -t smart:5 'gosmart1' C-m
