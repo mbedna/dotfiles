@@ -9,7 +9,7 @@
 
 hg clone  https://vim.googlecode.com/hg/vim
 cd vim/src
-./configure --enable-rubyinterp --enable-pythoninterp --with-features=huge --prefix=/opt/tools/vim
+./configure --enable-rubyinterp --enable-pythoninterp --with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu --with-features=huge --prefix=/opt/tools/vim
 make && make install
 mkdir -p $HOME/bin
 cd $HOME/bin
