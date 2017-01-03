@@ -4,7 +4,7 @@
 [push]
 	default = current
 [credential]
-	helper = /opt/boxen/bin/boxen-git-credential
+	helper = store
 [alias]
     st = status
     ci = commit -v
