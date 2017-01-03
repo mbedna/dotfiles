@@ -39,13 +39,13 @@ if [[ $platform == 'linux' ]]; then
     export WORKSPACEPMI=~/workspacepmi
 	export ECLIM_ECLIPSE_HOME=$TOOLS/springsource/sts-2.9.1.RELEASE
 	export ECLIPSE_HOME=$TOOLS/eclipse
-	export IDEA_HOME=$TOOLS/idea-IC-163.10154.41
+	export IDEA_HOME=$TOOLS/idea-IU-162.2228.15
 	export SOAPUI_HOME=$TOOLS/soapui-4.5.1
 	export PATH=$PATH:$SOAPUI_HOME/bin:$IDEA_HOME/bin
 	#looks like sqldeveloper is installed in two places TODO
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
 	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
-	export M2_HOME=$TOOLS/maven
+	export M2_HOME=$TOOLS/apache-maven-3.3.9
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
 	export JAVA_HOME=/usr/lib/jvm/java-8-oracle
