@@ -8,6 +8,7 @@ export DROPBOX='/opt/Dropbox'
 alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
 alias gomost='cd $PROJECTS/most'
+alias gomojapg='cd $PROJECTS/mojapg'
 alias godropbox='cd $DROPBOX'
 alias godatabase='cd /opt/tools/OracleVM'
 
