@@ -7,14 +7,9 @@ export DROPBOX='/opt/Dropbox'
 
 alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
-alias gosmart1='cd $PROJECTS/smart1'
-alias gosmart2='cd $PROJECTS/smart2'
 alias gomost='cd $PROJECTS/most'
 alias godropbox='cd $DROPBOX'
 alias godatabase='cd /opt/tools/OracleVM'
-alias gointernalauth='cd $PROJECTS/capd-internal-user-auth-services'
-alias goplaces='cd $PROJECTS/capd-places-service'
-alias goextract='cd $PROJECTS/capd-extract-feed'
 
 alias ll='ls -alF --color'
 alias la='ls -A --color'
@@ -84,13 +79,8 @@ elif [[ $platform == 'mac' ]]; then
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
+alias goidea='cd $IDEA_HOME'
 export TOMCAT_HOME=$C_DRIVE/apache-tomcat-7.0.29
-alias gopmi='cd $WORKSPACEPMI' 
-export pmitrunksrc="$WORKSPACEPMI/trunk/JAVA/src/main/java/com/acxiom/pmi/spice"
-export pmitrunktest="$WORKSPACEPMI/trunk/JAVA/src/test/java/com/acxiom/pmi/spice"
-alias gopmibranch='cd $WORKSPACEPMI/WS_REL_2.1_20130306/JAVA' 
-alias gopmitrunk='cd $WORKSPACEPMI/trunk/JAVA' 
-alias gopmitrunkoracle='cd $WORKSPACEPMI/trunk/Oracle' 
 alias goc='cd $C_DRIVE' 
 alias god='cd $D_DRIVE' 
 alias goe='cd $E_DRIVE' 
