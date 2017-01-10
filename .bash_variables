@@ -12,6 +12,7 @@ alias gomost='cd $PROJECTS/most'
 alias gomojapg='cd $PROJECTS/mojapg'
 alias godropbox='cd $DROPBOX'
 alias godatabase='cd /opt/tools/OracleVM'
+alias godocker='cd /var/lib/docker'
 
 alias ll='ls -alF --color'
 alias la='ls -A --color'
