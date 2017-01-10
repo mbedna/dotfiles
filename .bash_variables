@@ -1,6 +1,7 @@
 #paths that has to be changed
 . $HOME/bin/env.sh 
 
+alias rm="echo Use 'trash', or the full path i.e. '/bin/rm'"
 export PROJECTS='/opt/projects'
 export TOOLS='/opt/tools'
 export DROPBOX='/opt/Dropbox'
