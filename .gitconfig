@@ -13,7 +13,7 @@
     ch = checkout
 [core]
 	autocrlf = false
-	excludesfile = /opt/boxen/config/git/gitignore
+	excludesfile = /home/mbedna/.gitignore
 	filemode = false
 [color]
 	diff = true
@@ -25,3 +25,5 @@
 	trustExitCode = true
 [pull]
 	default = current
+[http]
+	sslverify = false
