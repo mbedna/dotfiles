@@ -20,6 +20,7 @@ if [ -d "${HOME}/bin" ] ; then
   PATH="${HOME}/bin/defra:${PATH}"
   PATH="${HOME}/bin/smart:${PATH}"
   PATH="${HOME}/bin/mojapg:${PATH}"
+  PATH="${HOME}/bin/most:${PATH}"
   PATH="${HOME}/bin/es:${PATH}"
   PATH="${HOME}/bin/git:${PATH}"
   PATH="${HOME}/bin/grep:${PATH}"
