@@ -1,7 +1,5 @@
-target
 .classpath
 .project
-tags
 .settings
 .vim/.netrwhist
 .vorax/vorax.log
@@ -14,19 +12,10 @@ tags
 .dbgpavim.session
 .bashrc_local
 .ssh
-test
 .mutt
-oracle
 .gem
 .git-credentials
 .lesshst
-examples.desktop
-Desktop
-Pulpit
-Pobrane
-Documents
-Downloads
-Pictures
 .wireshark
 .xsession-errors
 .xsession-errors.old
@@ -34,7 +23,7 @@ Pictures
 .wakeup
 .tvmaxe
 .thunderbird
-.macromedia/
+.macromedia
 .mozilla
 .mplayer
 .pam_environment
@@ -43,7 +32,7 @@ Pictures
 .pySopCast
 .qmmp
 .remmina
-.spumu/
+.spumu
 .synaptic
 .thumbnails
 .spumux
@@ -73,7 +62,6 @@ Pictures
 .dropbox
 .subversion
 .VirtualBox
-VirtualBox VMs
 .my.cnf
 .mysql_history
 .gconf
@@ -87,17 +75,11 @@ VirtualBox VMs
 .turses
 .irssi
 .davmail.properties
-davmail.log*
 .speech-dispatcher
 .scala_history
 .sbt
 .install4j
 .vboxclient*
-Applications
-Library
-Movies
-Music
-Public
 .CF
 .zcompdump-Marcin’s\ MacBook\ Pro-5.0.2
 .CFUserTextEncoding
@@ -105,8 +87,27 @@ Public
 .dropbox-master
 .zsh_history
 .Trash
-src
 .vagrant.d
+tags
+target
+test
+oracle
+Desktop
+Pulpit
+Obrazy
+Pobrane
+Documents
+Downloads
+Pictures
+examples.desktop
+VirtualBox VMs
+davmail.log*
+Applications
+Library
+Movies
+Music
+Public
+src
 .hgignore_global
 IdeaProjects
 .cups
@@ -124,8 +125,6 @@ ie
 .bundler
 .pgpass
 .psql_history
-HCMTools
-workday
 .bash_profile_smart1
 .bash_profile_smart2
 .rvm
@@ -146,7 +145,6 @@ bin/vim
 .mono
 .IntelliJIdea2016.2
 .IntelliJIdea2016.3
-Obrazy
 .android
 .docker
 .idea
