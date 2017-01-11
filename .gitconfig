@@ -13,7 +13,7 @@
     ch = checkout
 [core]
 	autocrlf = false
-	excludesfile = /home/mbedna/.gitignore-global
+	excludesfile = /home/mbedna/.gitignore_global
 	filemode = false
 [color]
 	diff = true
