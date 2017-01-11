@@ -14,14 +14,15 @@ alias gomojapg='cd $PROJECTS/mojapg'
 alias godropbox='cd $DROPBOX'
 alias godatabase='cd /opt/tools/OracleVM'
 alias godocker='cd /var/lib/docker'
-
+alias gologsmost='cd $PROJECTS/most/vagrant/docker-run/most-business/logs' 
+alias godeploymost='cd $PROJECTS/most/vagrant/docker-run/most-business/srv/webapp' 
+#alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
 alias la='ls -A --color'
 alias l='ls -CF --color'
 
 if [[ $platform == 'linux' ]]; then
 	export C_DRIVE='/media/sf_C_DRIVE'
-    export WORKSPACEPMI=~/workspacepmi
 	export ECLIM_ECLIPSE_HOME=$TOOLS/springsource/sts-2.9.1.RELEASE
 	export ECLIPSE_HOME=$TOOLS/eclipse
 	export IDEA_HOME=$TOOLS/idea-IU-162.2228.15
@@ -41,19 +42,18 @@ if [[ $platform == 'linux' ]]; then
 	alias startidea=$IDEA_HOME/bin/idea.sh
 	alias startsoapui=soapui.sh
 	alias startsqldeveloper=sqldeveloper
-    alias gotns='cd' 
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/repo/mbedna/oracle/instantclient_11_2
-    export PATH=$PATH:~/repo/mbedna/oracle/instantclient_11_2
-    export cl_path="$HOME/lib/javacompiler-1.0.jar"
+  alias gotns='cd' 
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/repo/mbedna/oracle/instantclient_11_2
+  export PATH=$PATH:~/repo/mbedna/oracle/instantclient_11_2
+  export cl_path="$HOME/lib/javacompiler-1.0.jar"
 elif [[ $platform == 'cygwin' ]]; then
 	export C_DRIVE='/cygdrive/c'
 	export D_DRIVE='/cygdrive/d'
 	export E_DRIVE='/cygdrive/e'
-    if [[ -z "$DRIVE" ]]; then
-	    export DRIVE=$C_DRIVE
-    fi
-    export WORKSPACEPMI=$DRIVE/workspacepmi
-	export ECLIMD_OPTS='-Dosgi.instance.area.default=C:/workspacepmi'
+  if [[ -z "$DRIVE" ]]; then
+   export DRIVE=$C_DRIVE
+  fi
+	export ECLIMD_OPTS='-Dosgi.instance.area.default=C:/workspace'
 	export ECLIPSE_HOME=$DRIVE/eclipse
 	#Below is needed for eclim installation
 	export ECLIM_ECLIPSE_HOME=$DRIVE/eclipse
@@ -69,19 +69,19 @@ elif [[ $platform == 'cygwin' ]]; then
 	export JBOSS_HOME=$DRIVE/jboss-6.1.0.Final
 	alias starteclim='$ECLIPSE_HOME/eclimd.cmd'
 	alias starteclipse=$ECLIPSE_HOME/eclipse.exe
-    alias gotns='cd $DRIVE/programs/oracle/product/11.2.0/client_1/network/admin' 
+  alias gotns='cd $DRIVE/programs/oracle/product/11.2.0/client_1/network/admin' 
 	alias pbcopy='putclip'
 	alias pbpaste='getclip'
-    export cl_path=`cygpath -m $HOME/lib/javacompiler-1.0.jar`
-    export CYGHOME=`cygpath -m $HOME`
-    source ~/mintty-colors-solarized/mintty-blackburn.sh
-    export VBOX_USER_HOME=/cygdrive/c/Users/mbednarek/.VirtualBox
+  export cl_path=`cygpath -m $HOME/lib/javacompiler-1.0.jar`
+  export CYGHOME=`cygpath -m $HOME`
+  source ~/mintty-colors-solarized/mintty-blackburn.sh
+  export VBOX_USER_HOME=/cygdrive/c/Users/mbednarek/.VirtualBox
 elif [[ $platform == 'mac' ]]; then
-    alias ll='ls -alF' 
-    alias la='ls -A'
-    alias l='ls -CF'
-    JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
-    [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+  alias ll='ls -alF' 
+  alias la='ls -A'
+  alias l='ls -CF'
+  JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
 alias goidea='cd $IDEA_HOME'
