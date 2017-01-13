@@ -151,3 +151,4 @@ bin/vim
 pgadmin.log
 .pgadmin3
 default-soapui-workspace.xml
+.gradle

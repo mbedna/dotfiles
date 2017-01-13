@@ -12,14 +12,14 @@ alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
-export MOST_HOME='$PROJECTS/mostfork'
+export MOST_HOME="$PROJECTS/mostfork"
 
 alias gomost='cd $MOST_HOME'
 alias gomostbusiness='cd $MOST_HOME/business'
 alias gomojapg='cd $PROJECTS/mojapg'
 alias gologsmostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/logs' 
 alias godeploymostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/srv/webapp' 
-alias taillogsmostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log' 
+alias taillogsmostbusiness='tail -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log' 
 
 #alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
@@ -37,6 +37,8 @@ if [[ $platform == 'linux' ]]; then
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
 	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
 	export M2_HOME=$TOOLS/apache-maven-3.3.9
+    export GRADLE_HOME=$TOOLS/gradle-2.13
+	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
 	export JAVA_HOME=/usr/lib/jvm/java-8-oracle
@@ -67,7 +69,7 @@ elif [[ $platform == 'cygwin' ]]; then
 	export ANT_HOME=$TOOLS/ant
 	export GANT_HOME=$DRIVE/programs/gant
 	MOZILLA_HOME=$DRIVE/Program\ Files\ \(x86\)/Mozilla\ Firefox
-	ES_HOME=$TOOLS/elasticsearch-0.90.6
+	ES_HOME=$TOOLS/elasticsearch-2.4.1
 	export JAVA_HOME=$DRIVE/Java/jdk1.7.0_55
 	export MONGODB_HOME=$DRIVE/programs/mongodb
 	export SCALA_HOME=$DRIVE/scala
