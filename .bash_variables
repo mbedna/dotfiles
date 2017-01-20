@@ -49,17 +49,16 @@ if [[ $platform == 'linux' ]]; then
 	alias startidea=$IDEA_HOME/bin/idea.sh
 	alias startsoapui=soapui.sh
 	alias startsqldeveloper=sqldeveloper
-  alias gotns='cd' 
-  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/repo/mbedna/oracle/instantclient_11_2
-  export PATH=$PATH:~/repo/mbedna/oracle/instantclient_11_2
-  export cl_path="$HOME/lib/javacompiler-1.0.jar"
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/repo/mbedna/oracle/instantclient_11_2
+    export PATH=$PATH:~/repo/mbedna/oracle/instantclient_11_2
+    export cl_path="$HOME/lib/javacompiler-1.0.jar"
 elif [[ $platform == 'cygwin' ]]; then
 	export C_DRIVE='/cygdrive/c'
 	export D_DRIVE='/cygdrive/d'
 	export E_DRIVE='/cygdrive/e'
-  if [[ -z "$DRIVE" ]]; then
-   export DRIVE=$C_DRIVE
-  fi
+    if [[ -z "$DRIVE" ]]; then
+        export DRIVE=$C_DRIVE
+    fi
 	export ECLIMD_OPTS='-Dosgi.instance.area.default=C:/workspace'
 	export ECLIPSE_HOME=$DRIVE/eclipse
 	#Below is needed for eclim installation
@@ -69,29 +68,30 @@ elif [[ $platform == 'cygwin' ]]; then
 	export ANT_HOME=$TOOLS/ant
 	export GANT_HOME=$DRIVE/programs/gant
 	MOZILLA_HOME=$DRIVE/Program\ Files\ \(x86\)/Mozilla\ Firefox
-	ES_HOME=$TOOLS/elasticsearch-2.4.1
 	export JAVA_HOME=$DRIVE/Java/jdk1.7.0_55
 	export MONGODB_HOME=$DRIVE/programs/mongodb
 	export SCALA_HOME=$DRIVE/scala
 	export JBOSS_HOME=$DRIVE/jboss-6.1.0.Final
 	alias starteclim='$ECLIPSE_HOME/eclimd.cmd'
 	alias starteclipse=$ECLIPSE_HOME/eclipse.exe
-  alias gotns='cd $DRIVE/programs/oracle/product/11.2.0/client_1/network/admin' 
+    alias gotns='cd $DRIVE/programs/oracle/product/11.2.0/client_1/network/admin' 
 	alias pbcopy='putclip'
 	alias pbpaste='getclip'
-  export cl_path=`cygpath -m $HOME/lib/javacompiler-1.0.jar`
-  export CYGHOME=`cygpath -m $HOME`
-  source ~/mintty-colors-solarized/mintty-blackburn.sh
-  export VBOX_USER_HOME=/cygdrive/c/Users/mbednarek/.VirtualBox
+    export cl_path=`cygpath -m $HOME/lib/javacompiler-1.0.jar`
+    export CYGHOME=`cygpath -m $HOME`
+    source ~/mintty-colors-solarized/mintty-blackburn.sh
+    export VBOX_USER_HOME=/cygdrive/c/Users/mbednarek/.VirtualBox
 elif [[ $platform == 'mac' ]]; then
-  alias ll='ls -alF' 
-  alias la='ls -A'
-  alias l='ls -CF'
-  JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
-  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+    alias ll='ls -alF' 
+    alias la='ls -A'
+    alias l='ls -CF'
+    JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+    [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
+ES_HOME=$TOOLS/elasticsearch-2.4.1
 alias goidea='cd $IDEA_HOME'
+alias goelastic='cd $ES_HOME'
 export TOMCAT_HOME=$C_DRIVE/apache-tomcat-7.0.29
 alias goc='cd $C_DRIVE' 
 alias god='cd $D_DRIVE' 
