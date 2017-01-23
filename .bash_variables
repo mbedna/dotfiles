@@ -13,13 +13,16 @@ alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
 export MOST_HOME="$PROJECTS/mostfork"
+export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomost='cd $MOST_HOME'
 alias gomostbusiness='cd $MOST_HOME/business'
-alias gomojapg='cd $PROJECTS/mojapg'
+alias gomojapg='cd $MOJAPG_HOME'
 alias gologsmostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/logs' 
 alias godeploymostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/srv/webapp' 
-alias taillogsmostbusiness='tail -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log' 
+alias taillogmostbusiness='tail -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log' 
+alias taillogmojapgbusiness='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log'
+alias taillogmojapgportal='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log'
 
 #alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
