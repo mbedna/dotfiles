@@ -95,6 +95,7 @@ fi
 ES_HOME=$TOOLS/elasticsearch-2.4.1
 alias goidea='cd $IDEA_HOME'
 alias goelastic='cd $ES_HOME'
+alias startelastic=$ES_HOME/bin/elasticsearch
 export TOMCAT_HOME=$C_DRIVE/apache-tomcat-7.0.29
 alias goc='cd $C_DRIVE' 
 alias god='cd $D_DRIVE' 
