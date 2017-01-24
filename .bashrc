@@ -98,6 +98,9 @@ alias mec='mvn eclipse:clean'
 alias mdt='mvn dependency:tree' 
 alias mdbc='mvn dependency:build-classpath' 
 alias mag='mvn archetype:generate' 
+alias mjc='mvn jacoco:check' 
+alias mjh='mvn jacoco:help' 
+
 function mcej() { 
     echo ${*:2};
     mvn compile exec:java -Dexec.mainClass=$1 -Dexec.arguments=${*:2};
