@@ -23,7 +23,7 @@ alias godeploymostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/srv/w
 alias taillogmostbusiness='tail -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log' 
 alias taillogmojapgbusiness='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log'
 alias taillogmojapgportal='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log'
-aliast tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f  -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log'
+alias tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f $MOST_HOME/vagrant/docker-run/most-business/logs/spring.log'
 
 #alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
