@@ -11,11 +11,11 @@ tmux send-keys -t most:2 'gomostbusiness' C-m
 tmux new-window -n 'mojapg' -t most:3
 tmux send-keys -t most:3 'gomojapg' C-m
 
-tmux new-window -n 'logs' -t most:4
-tmux send-keys -t most:4 'tailall' C-m
+tmux new-window -n 'most' -t most:4
+tmux send-keys -t most:4 'gomost' C-m
 
-tmux new-window -n 'most' -t most:5
-tmux send-keys -t most:5 'gomost' C-m
+tmux new-window -n 'logs' -t most:5
+tmux send-keys -t most:5 'tailall' C-m
 
 tmux new-window -n 'elastic' -t most:6
 tmux send-keys -t most:6 'startelastic' C-m
