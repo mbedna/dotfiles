@@ -12,11 +12,13 @@ alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
-export MOST_HOME="$PROJECTS/mostfork"
+export MOST_HOME="$PROJECTS/most"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomost='cd $MOST_HOME'
 alias gomostbusiness='cd $MOST_HOME/business'
+alias startmost='cd $MOST_HOME/vagrant;vagrant up'
+alias startmojapg='cd $MOJAPG_HOME/vagrant;vagrant up'
 alias gomojapg='cd $MOJAPG_HOME'
 alias gologsmostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/logs' 
 alias godeploymostbusiness='cd $MOST_HOME/vagrant/docker-run/most-business/srv/webapp' 
