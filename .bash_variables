@@ -18,6 +18,7 @@ export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 alias gomost='cd $MOST_HOME'
 alias gomostbusiness='cd $MOST_HOME/business'
 alias gomostvagrant='cd $MOST_HOME/vagrant'
+alias gomostdata='cd $MOST_HOME/vagrant/docker-run/most-business/data'
 alias startmost='cd $MOST_HOME/vagrant;vagrant up'
 alias startmojapg='cd $MOJAPG_HOME/vagrant;vagrant up'
 alias gomojapg='cd $MOJAPG_HOME'
