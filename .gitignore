@@ -153,3 +153,5 @@ pgadmin.log
 default-soapui-workspace.xml
 .gradle
 .xsel.log
+.nx
+.qt
