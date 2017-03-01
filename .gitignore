@@ -155,3 +155,4 @@ default-soapui-workspace.xml
 .xsel.log
 .nx
 .qt
+.visualvm
