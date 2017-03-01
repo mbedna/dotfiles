@@ -83,4 +83,5 @@ bindkey -v
 bindkey "^R" history-incremental-search-backward
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PROMPT="%{$fg[green]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%} %F{blue}${${(%):-%m}#}%f %# "
+HOST_NAME_PROMPT='%F{blue}${${(%):-%m}#}%f %# '
+export PROMPT=$PROMPT$HOST_NAME_PROMPT
