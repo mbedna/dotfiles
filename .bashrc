@@ -100,6 +100,7 @@ alias mdbc='mvn dependency:build-classpath'
 alias mag='mvn archetype:generate' 
 alias mjc='mvn jacoco:check' 
 alias mjh='mvn jacoco:help' 
+alias mcv='mvn clean verify' 
 
 function mcej() { 
     echo ${*:2};
