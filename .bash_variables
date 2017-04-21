@@ -13,6 +13,7 @@ alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
 export MOST_HOME="$PROJECTS/most"
+export EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalConnector"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomost='cd $MOST_HOME'
