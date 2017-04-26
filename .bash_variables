@@ -17,6 +17,7 @@ export EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalConnector"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomost='cd $MOST_HOME'
+alias goexternalconnector='cd $EXTERNAL_CONNECTOR_HOME'
 alias gomostbusiness='cd $MOST_HOME/business'
 alias gomostvagrant='cd $MOST_HOME/vagrant'
 alias gomostdata='cd $MOST_HOME/vagrant/docker-run/most-business/data'
