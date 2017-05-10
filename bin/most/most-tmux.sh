@@ -2,17 +2,17 @@
 set -vx
 tmux new-session -d -s most 
 tmux new-window -n 'main' -t most:0
-tmux new-window -n 'most' -t most:1
-tmux send-keys -t most:1 'gomost' C-m
+tmux new-window -n 'business' -t most:1
+tmux send-keys -t most:1 'gomostbusiness' C-m
 
-tmux new-window -n 'most' -t most:2
-tmux send-keys -t most:2 'gomostbusiness' C-m
+tmux new-window -n 'importer' -t most:2
+tmux send-keys -t most:2 'gomostimporterbusiness' C-m
 
-tmux new-window -n 'mojapg' -t most:3
-tmux send-keys -t most:3 'gomojapg' C-m
+tmux new-window -n 'connector' -t most:3
+tmux send-keys -t most:3 'gomostexternalconnectorbusiness' C-m
 
-tmux new-window -n 'most' -t most:4
-tmux send-keys -t most:4 'gomost' C-m
+tmux new-window -n 'mojapg' -t most:4
+tmux send-keys -t most:4 'gomojapg' C-m
 
 tmux new-window -n 'logs' -t most:5
 tmux send-keys -t most:5 'tailall' C-m
