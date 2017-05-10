@@ -13,11 +13,15 @@ alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
 export MOST_HOME="$PROJECTS/most"
+export IMPORTER_HOME="$PROJECTS/importer"
 export EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalConnector"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomost='cd $MOST_HOME'
+alias goimporter='cd $IMPORTER_HOME'
+alias goimporterbusiness='cd $IMPORTER_HOME/business'
 alias goexternalconnector='cd $EXTERNAL_CONNECTOR_HOME'
+alias goexternalconnectorbusiness='cd $EXTERNAL_CONNECTOR_HOME/business'
 alias gomostbusiness='cd $MOST_HOME/business'
 alias gomostvagrant='cd $MOST_HOME/vagrant'
 alias gomostdata='cd $MOST_HOME/vagrant/docker-run/most-business/data'
