@@ -11,8 +11,8 @@ tmux send-keys -t most:2 'gomostimporterbusiness' C-m
 tmux new-window -n 'connector' -t most:3
 tmux send-keys -t most:3 'gomostexternalconnectorbusiness' C-m
 
-tmux new-window -n 'mojapg' -t most:4
-tmux send-keys -t most:4 'gomojapg' C-m
+tmux new-window -n 'aggregator' -t most:4
+tmux send-keys -t most:4 'gomostaggregatorbusiness' C-m
 
 tmux new-window -n 'logs' -t most:5
 tmux send-keys -t most:5 'tailall' C-m
@@ -20,7 +20,8 @@ tmux send-keys -t most:5 'tailall' C-m
 tmux new-window -n 'elastic' -t most:6
 tmux send-keys -t most:6 'startelastic' C-m
 
-tmux new-window -n 'idea1' -t most:7
+tmux new-window -n 'mojapg' -t most:7
+tmux send-keys -t most:7 'gomojapg' C-m
 
 tmux new-window -n 'idea2' -t most:8
 
