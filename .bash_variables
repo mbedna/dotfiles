@@ -12,10 +12,10 @@ alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
-export MOST_BUSINESS_HOME="$PROJECTS/most"
+export MOST_BUSINESS_HOME="$PROJECTS/business"
 export MOST_IMPORTER_HOME="$PROJECTS/importer"
 export MOST_AGGREGATOR_HOME="$PROJECTS/aggregator"
-export MOST_EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalConnector"
+export MOST_EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalconnector"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
 alias gomostimporterbusiness='cd $MOST_IMPORTER_HOME/business'
@@ -23,7 +23,7 @@ alias gomostaggregatorbusiness='cd $MOST_AGGREGATOR_HOME/business'
 alias gomostexternalconnectorbusiness='cd $MOST_EXTERNAL_CONNECTOR_HOME/business'
 alias gomostbusiness='cd $MOST_BUSINESS_HOME/business'
 alias gomostbusinessvagrant='cd $MOST_BUSINESS_HOME/vagrant'
-alias gomostbusinessdata='cd $MOST_BUSINESS_HOME/vagrant/docker-run/most-importer/data'
+alias gomostbusinessdata='cd $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/data'
 alias gomostimportervagrant='cd $MOST_IMPORTER_HOME/vagrant'
 alias gomostimporterdata='cd $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/data'
 alias gomostaggregatorvagrant='cd $MOST_AGGREGATOR_HOME/vagrant'
@@ -133,7 +133,7 @@ elif [[ $platform == 'mac' ]]; then
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
-ES_HOME=$TOOLS/elasticsearch-2.4.1
+ES_HOME=$TOOLS/elasticsearch-5.4.1
 alias goidea='cd $IDEA_HOME'
 alias goelastic='cd $ES_HOME'
 alias startelastic=$ES_HOME/bin/elasticsearch
