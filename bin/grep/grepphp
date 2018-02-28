@@ -1,2 +1,2 @@
 #!/bin/sh
-grep --color --exclude-dir={"build","logs","vendor","cache",".git"} --exclude={"*.zip","tags"} -ri "$@"
+grep --color --exclude-dir={"build","logs","var","vendor","cache",".git"} --exclude={"*.zip","tags"} -ri "$@"
