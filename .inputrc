@@ -35,6 +35,7 @@
 "\e$": complete-variable 
 #"\e\t\t": complete-variable 
 
+set prefer-visible-bell on
 
 # Allow 8-bit input/output
 #set meta-flag on
