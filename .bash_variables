@@ -133,7 +133,7 @@ elif [[ $platform == 'mac' ]]; then
     [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 fi
 
-ES_HOME=$TOOLS/elasticsearch-5.4.1
+ES_HOME=$TOOLS/elasticsearch-5.6.8
 alias goidea='cd $IDEA_HOME'
 alias goelastic='cd $ES_HOME'
 alias startelastic=$ES_HOME/bin/elasticsearch
