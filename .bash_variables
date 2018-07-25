@@ -75,7 +75,7 @@ if [[ $platform == 'linux' ]]; then
 	export ECLIM_ECLIPSE_HOME=$TOOLS/springsource/sts-2.9.1.RELEASE
 	export ECLIPSE_HOME=$TOOLS/eclipse
 	export IDEA_HOME=$TOOLS/idea-IU-162.2228.15
-	export SOAPUI_HOME=$TOOLS/soapui-4.5.1
+	export SOAPUI_HOME=$TOOLS/SoapUI-5.3.0
 	export PATH=$PATH:$SOAPUI_HOME/bin:$IDEA_HOME/bin
 	#looks like sqldeveloper is installed in two places TODO
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
