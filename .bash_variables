@@ -74,13 +74,13 @@ if [[ $platform == 'linux' ]]; then
 	export C_DRIVE='/media/sf_C_DRIVE'
 	export ECLIM_ECLIPSE_HOME=$TOOLS/springsource/sts-2.9.1.RELEASE
 	export ECLIPSE_HOME=$TOOLS/eclipse
-	export IDEA_HOME=$TOOLS/idea-IU-162.2228.15
+	export IDEA_HOME=$TOOLS/idea-IU-183.4588.61
 	export SOAPUI_HOME=$TOOLS/SoapUI-5.3.0
 	export PATH=$PATH:$SOAPUI_HOME/bin:$IDEA_HOME/bin
 	#looks like sqldeveloper is installed in two places TODO
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
 	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
-	export M2_HOME=$TOOLS/apache-maven-3.3.9
+	export M2_HOME=$TOOLS/apache-maven-3.6.0
     export GRADLE_HOME=$TOOLS/gradle-2.13
 	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven

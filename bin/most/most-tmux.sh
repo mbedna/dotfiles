@@ -18,7 +18,6 @@ tmux new-window -n 'logs' -t most:5
 tmux send-keys -t most:5 'tailall' C-m
 
 tmux new-window -n 'elastic' -t most:6
-tmux send-keys -t most:6 'startelastic' C-m
 
 tmux new-window -n 'mojapg' -t most:7
 tmux send-keys -t most:7 'gomojapg' C-m
