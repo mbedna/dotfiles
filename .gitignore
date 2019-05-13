@@ -145,6 +145,11 @@ bin/vim
 .mono
 .IntelliJIdea2016.2
 .IntelliJIdea2016.3
+.IntelliJIdea2019.1
+.IdeaIC2018.2
+.IdeaIC2018.3
+.IntelliJIdea2018.3
+IntellijIdea
 .android
 .docker
 .idea
@@ -157,9 +162,6 @@ default-soapui-workspace.xml
 .qt
 .visualvm
 Dokumenty
-.IdeaIC2018.2
-.IdeaIC2018.3
-.IntelliJIdea2018.3
 .PhpStorm2018.1
 .gnupg
 .claws-mail
@@ -167,5 +169,7 @@ Dokumenty
 .pdfbox.cache
 .sonarlint
 Calibre Library
-IntellijIdea
 .yjp
+.yarnrc
+.electron-gyp
+soapui-settings.xml

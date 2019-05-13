@@ -85,7 +85,7 @@ if [[ $platform == 'linux' ]]; then
 	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
-	export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+	export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 	export GANT_HOME=$TOOLS/gant-1.9.8
 	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
 	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
@@ -112,7 +112,7 @@ elif [[ $platform == 'cygwin' ]]; then
 	export ANT_HOME=$TOOLS/ant
 	export GANT_HOME=$DRIVE/programs/gant
 	MOZILLA_HOME=$DRIVE/Program\ Files\ \(x86\)/Mozilla\ Firefox
-	export JAVA_HOME=$DRIVE/Java/jdk1.7.0_55
+	export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 	export MONGODB_HOME=$DRIVE/programs/mongodb
 	export SCALA_HOME=$DRIVE/scala
 	export JBOSS_HOME=$DRIVE/jboss-6.1.0.Final
