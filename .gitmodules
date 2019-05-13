@@ -14,10 +14,6 @@
 	path = .vim/bundle/vdebug
 	url = git@ssh.github.com:joonty/vdebug.git
     ignore = dirty
-[submodule ".vim/bundle/phpunit-qf"]
-	path = .vim/bundle/phpunit-qf
-	url = git@ssh.github.com:vim-scripts/PHPUnit-QF.git
-    ignore = dirty
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = git@ssh.github.com:tpope/vim-pathogen.git
