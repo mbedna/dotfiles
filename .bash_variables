@@ -29,7 +29,7 @@ alias gomostimporterdata='cd $MOST_IMPORTER_HOME/vagrant/docker-run/most-importe
 alias gomostaggregatorvagrant='cd $MOST_AGGREGATOR_HOME/vagrant'
 alias gomostaggregatordata='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/data'
 alias gomostexternalconnectorvagrant='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant'
-alias gomostexternalconnectordata='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-external-connector/data'
+alias gomostexternalconnectordata='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/data'
 
 alias gomojapg='cd $MOJAPG_HOME'
 alias gomojapgvagrant='cd $MOJAPG_HOME/vagrant'
@@ -40,8 +40,8 @@ alias startmostimporter='docker start most-importer'
 alias restartmostimporter='docker restart most-importer'
 alias startmostaggregator='docker start most-aggregator'
 alias restartmostaggregator='docker restart most-aggregator'
-alias startmostexternalconnector='docker start most-external-connector'
-alias restartmostexternalconnector='docker restart most-external-connector'
+alias startmostexternalconnector='docker start most-externalconnector'
+alias restartmostexternalconnector='docker restart most-externalconnector'
 
 alias startmojapg='cd $MOJAPG_HOME/vagrant;vagrant up'
 
@@ -57,13 +57,13 @@ alias gologsmostaggregator='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-agg
 alias godeploymostaggregator='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/srv/webapp' 
 alias taillogmostaggregator='tail -f $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log' 
 
-alias gologsmostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-external-connector/logs' 
-alias godeploymostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-external-connector/srv/webapp' 
-alias taillogmostexternalconnector='tail -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-external-connector/logs/spring.log' 
+alias gologsmostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs' 
+alias godeploymostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/srv/webapp' 
+alias taillogmostexternalconnector='tail -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log' 
 
 alias taillogmojapgbusiness='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log'
 alias taillogmojapgportal='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log'
-alias tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log -f $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-external-connector/logs/spring.log tail -f $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log'
+alias tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log -f $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log tail -f $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log'
 
 #alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
@@ -85,7 +85,7 @@ if [[ $platform == 'linux' ]]; then
 	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
-	export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+	export JAVA_HOME=/usr/lib/jvm/java-12-openjdk-amd64
 	export GANT_HOME=$TOOLS/gant-1.9.8
 	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
 	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
@@ -112,7 +112,7 @@ elif [[ $platform == 'cygwin' ]]; then
 	export ANT_HOME=$TOOLS/ant
 	export GANT_HOME=$DRIVE/programs/gant
 	MOZILLA_HOME=$DRIVE/Program\ Files\ \(x86\)/Mozilla\ Firefox
-	export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+	export JAVA_HOME=/usr/lib/jvm/java-12-openjdk-amd64
 	export MONGODB_HOME=$DRIVE/programs/mongodb
 	export SCALA_HOME=$DRIVE/scala
 	export JBOSS_HOME=$DRIVE/jboss-6.1.0.Final
