@@ -20,6 +20,7 @@ xterm*toolBar:            true
 xterm*termName:           xterm-256color
 xterm*maximized:          1
 xterm*selectToClipboard:  true
+xterm*visualBell:         false
 
 !xterm*fullscreen: 1
 !Ctrl+Alt+Enter - switch to full screen
