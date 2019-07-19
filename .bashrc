@@ -83,7 +83,7 @@ alias gocopy="cd /opt/Copy"
 alias gowww="cd /var/www"
 
 
-alias mc='mvn compile'
+#alias mc='mvn compile'
 alias mtc='mvn test-compile'
 alias mctc='mvn clean test-compile'
 alias mcc='mvn clean compile'
