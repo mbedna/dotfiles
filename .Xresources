@@ -4,7 +4,7 @@
 !xterm*Locale: ISO8859-2
 xterm*Locale:             UTF-8 
 xterm*faceName:           VeraMono
-xterm*faceSize:           15
+xterm*faceSize:           12
 xterm*geometry:           180x30+0+0
 xterm*dynamicColors:      true
 xterm*utf8:               2
