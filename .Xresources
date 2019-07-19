@@ -29,6 +29,7 @@ xterm*VT100.allowWindowOps: true
 xterm*VT100.allowTitleOps: true
 xterm*VT100.allowFontOps: true
 xterm*VT100*translations: #override Meta <Btn1Up>: exec-formatted("chromium-browser '%t'", PRIMARY)
+xterm.VT100.blink: false
 
 xterm*VT100.translations: #override \
 Ctrl <Key> minus: smaller-vt-font() \n\

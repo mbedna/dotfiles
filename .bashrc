@@ -33,6 +33,7 @@ if [ -d "${HOME}/bin" ] ; then
 fi
 PATH="$TOOLS/vim/bin:$TOOLS/git/bin:$TOOLS/screen/bin:/usr/local/bin:/bin:$JAVA_HOME/bin:$SCALA_HOME/bin:$MOZILLA_HOME:/usr/sbin:$ES_HOME/bin:${PATH}"
 PATH="$TOOLS/copy/x86:$TOOLS/SoapUI/bin:${PATH}"
+PATH="$TOOLS/jetbrains-toolbox:${PATH}"
 PATH="$ECLIPSE_HOME:${PATH}"
 export PATH=$PATH:$M2_HOME/bin
 export PATH=$PATH:$SBT_HOME
