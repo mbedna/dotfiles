@@ -1,0 +1,23 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1871,
+       "width": 1070,
+       "x": 1920,
+       "y": 0
+    },
+    "name": "integration-tests [/opt/projects/integration_tests] - .../tools/scripts/copy_screenshots.sh [integration-tests] - IntelliJ IDEA",
+    "percent": 1,
+    "swallows": [
+       {
+       // "class": "^jetbrains\\-idea$",
+       // "instance": "^sun\\-awt\\-X11\\-XFramePeer$",
+       // "title": "^integration\\-tests\\ \\[\\/opt\\/projects\\/integration_tests\\]\\ \\-\\ \\.\\.\\.\\/tools\\/scripts\\/copy_screenshots\\.sh\\ \\[integration\\-tests\\]\\ \\-\\ IntelliJ\\ IDEA$"
+       }
+    ],
+    "type": "con"
+}
+
