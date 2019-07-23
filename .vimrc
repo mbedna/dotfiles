@@ -373,8 +373,8 @@ map <Left> <Nop>
 map <Right> <Nop>
 map <Up> <Nop>
 map <Down> <Nop>
-map <silent> h <Nop>
-map <silent> l <Nop>
+"map <silent> h <Nop>
+"map <silent> l <Nop>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE

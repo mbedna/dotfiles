@@ -204,6 +204,9 @@ bindsym $mod+Pause mode "$mode_system"
 
 focus_follows_mouse no
 
+# floating
+for_window [class="Arandr"] floating enable
+
 #autostart
 exec --no-startup-id nm-applet
 exec --no-startup-id jetbrains-toolbox --minimize
