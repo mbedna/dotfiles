@@ -9,6 +9,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+set $laptopscreen eDP-1 
+set $leftscreen DP-1
+set $rightscreen DP-3
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -94,22 +98,22 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $wsmessage  1:message
+set $wsdev      2:dev
+set $wsweb      3:web
+set $wsterm     4:term
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
+bindsym $mod+1 workspace $wsmessage
+bindsym $mod+2 workspace $wsdev
+bindsym $mod+3 workspace $wsweb
+bindsym $mod+4 workspace $wsterm
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
@@ -117,11 +121,16 @@ bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 
+workspace "$wsmessage" output $laptopscreen
+workspace "$wsdev" output $leftscreen
+workspace "$wsweb" output $rightscreen
+workspace "$wsterm" output $rightscreen
+
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+1 move container to workspace $wsmessage
+bindsym $mod+Shift+2 move container to workspace $wsdev
+bindsym $mod+Shift+3 move container to workspace $wsweb
+bindsym $mod+Shift+4 move container to workspace $wsterm
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
@@ -168,18 +177,14 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+#        output $laptopscreen
 }
-exec --no-startup-id nm-applet
-exec --no-startup-id jetbrains-toolbox --minimize
-exec --no-startup-id redshift
-exec --no-startup-id volumeicon
-exec --no-startup-id dropbox start
-exec --no-startup-id ~/bin/rotate_left.sh
-exec --no-startup-id ~/bin/remap-caps-escape.sh
+
 bindsym $mod+Control+Left focus output left
 bindsym $mod+Control+Right focus output right
 bindsym $mod+Control+Shift+Left move output left
 bindsym $mod+Control+Shift+Right move output right
+
 bindsym $mod+Shift+x exec i3lock --color=000000
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
@@ -199,16 +204,34 @@ bindsym $mod+Pause mode "$mode_system"
 
 focus_follows_mouse no
 
-exec --no-startup-id "i3-msg 'workspace1; exec pidgin;'" 
-exec --no-startup-id "i3-msg 'workspace1; exec rocketchat-desktop;'"
-exec --no-startup-id "i3-msg 'workspace1; exec thunderbird;'"
-exec --no-startup-id "i3-msg 'workspace2; exec ~/bin/idea.sh;'"
-exec --no-startup-id "i3-msg 'workspace3; exec xterm;'"
-exec --no-startup-id "i3-msg 'workspace3; exec chromium-browser;'"
+#autostart
+exec --no-startup-id nm-applet
+exec --no-startup-id jetbrains-toolbox --minimize
+exec --no-startup-id redshift
+exec --no-startup-id volumeicon
+exec --no-startup-id dropbox start
+exec --no-startup-id ~/bin/rotate_left.sh
+exec --no-startup-id ~/bin/remap-caps-escape.sh
+
+# assign specific windows to workspaces
+assign [class="^Pidgin$"] $wsmessage
+assign [class="^Thunderbird$"] $wsmessage
+assign [class="^Firefox$"] $wsweb
+assign [class="^XTerm$"] $wsterm
+assign [class="^.*jetbrains.*$"] $wsdev
+assign [class="^Chromium-browser$"] $wsweb
+assign [class="^Rocket.Chat$"] $wsmessage
+
+exec --no-startup-id i3-msg 'workspace $wsmessage; exec /usr/local/bin/rocketchat-desktop'
+exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/thunderbird'
+exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/pidgin'
+exec --no-startup-id i3-msg 'workspace $wsdev; exec /opt/tools/idea-IU-183.4588.61/bin/idea.sh'
+exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm'
+exec --no-startup-id i3-msg 'workspace $wsweb; exec /bin/chromium-browser'
 
 # In your i3 configuration file, you can autostart i3-msg like this:
 # (Note that those lines will quickly become long, so typically you would store
 #  them in a script with proper indentation.)
-exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/mbedna/.i3/workspace-1.json'"
-exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/mbedna/.i3/workspace-2.json'"
-exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/mbedna/.i3/workspace-3.json'"
+#exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/mbedna/.i3/workspace-1.json'"
+#exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/mbedna/.i3/workspace-2.json'"
+#exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/mbedna/.i3/workspace-3.json'"
