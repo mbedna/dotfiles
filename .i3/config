@@ -224,6 +224,8 @@ assign [class="^XTerm$"] $wsterm
 assign [class="^.*jetbrains.*$"] $wsdev
 assign [class="^Chromium-browser$"] $wsweb
 assign [class="^Rocket.Chat$"] $wsmessage
+bindsym $mod+Shift+greater move workspace to output right
+bindsym $mod+Shift+less move workspace to output left
 
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /usr/local/bin/rocketchat-desktop'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/thunderbird'
