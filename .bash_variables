@@ -12,58 +12,61 @@ alias gotools='cd $TOOLS'
 alias goprojects='cd $PROJECTS'
 alias godocker='cd /var/lib/docker'
 
-export MOST_BUSINESS_HOME="$PROJECTS/business"
-export MOST_IMPORTER_HOME="$PROJECTS/importer"
-export MOST_AGGREGATOR_HOME="$PROJECTS/aggregator"
-export MOST_EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalconnector"
+export BUSINESS_HOME="$PROJECTS/business"
+export IMPORTER_HOME="$PROJECTS/importer"
+export AGGREGATOR_HOME="$PROJECTS/aggregator"
+export EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalconnector"
 export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
 
-alias goimporterbusiness='cd $MOST_IMPORTER_HOME/business'
-alias goaggregatorbusiness='cd $MOST_AGGREGATOR_HOME/business'
-alias goexternalconnectorbusiness='cd $MOST_EXTERNAL_CONNECTOR_HOME/business'
-alias gobusiness='cd $MOST_BUSINESS_HOME/business'
-alias gobusinessvagrant='cd $MOST_BUSINESS_HOME/vagrant'
-alias gobusinessdata='cd $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/data'
-alias goimportervagrant='cd $MOST_IMPORTER_HOME/vagrant'
-alias goimporterdata='cd $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/data'
-alias goaggregatorvagrant='cd $MOST_AGGREGATOR_HOME/vagrant'
-alias goaggregatordata='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/data'
-alias goexternalconnectorvagrant='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant'
-alias goexternalconnectordata='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/data'
+alias goimporter='cd $IMPORTER_HOME/business'
+alias goimportervagrant='cd $IMPORTER_HOME/vagrant'
+alias goimporterdata='cd $IMPORTER_HOME/vagrant/docker-run/most-importer/data'
+
+alias goexternalconnector='cd $EXTERNAL_CONNECTOR_HOME/business'
+alias goexternalconnectorvagrant='cd $EXTERNAL_CONNECTOR_HOME/vagrant'
+alias goexternalconnectordata='cd $EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/data'
+
+alias gobusiness='cd $BUSINESS_HOME/business'
+alias gobusinessvagrant='cd $BUSINESS_HOME/vagrant'
+alias gobusinessdata='cd $BUSINESS_HOME/vagrant/docker-run/most-business/data'
+
+alias goaggregator='cd $AGGREGATOR_HOME/business'
+alias goaggregatorvagrant='cd $AGGREGATOR_HOME/vagrant'
+alias goaggregatordata='cd $AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/data'
 
 alias gomojapg='cd $MOJAPG_HOME'
 alias gomojapgvagrant='cd $MOJAPG_HOME/vagrant'
 
-alias startmostbusiness='docker start most-business'
-alias restartmostbusiness='docker restart most-business'
-alias startmostimporter='docker start most-importer'
-alias restartmostimporter='docker restart most-importer'
-alias startmostaggregator='docker start most-aggregator'
-alias restartmostaggregator='docker restart most-aggregator'
-alias startmostexternalconnector='docker start most-externalconnector'
-alias restartmostexternalconnector='docker restart most-externalconnector'
+alias startbusiness='docker start most-business'
+alias restartbusiness='docker restart most-business'
+alias startimporter='docker start most-importer'
+alias restartimporter='docker restart most-importer'
+alias startaggregator='docker start most-aggregator'
+alias restartaggregator='docker restart most-aggregator'
+alias startexternalconnector='docker start most-externalconnector'
+alias restartexternalconnector='docker restart most-externalconnector'
 
 alias startmojapg='cd $MOJAPG_HOME/vagrant;vagrant up'
 
-alias gologsmostbusiness='cd $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/logs' 
-alias godeploymostbusiness='cd $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/srv/webapp' 
-alias taillogmostbusiness='tail -f $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log' 
+alias gologsbusiness='cd $BUSINESS_HOME/vagrant/docker-run/most-business/logs' 
+alias godeploybusiness='cd $BUSINESS_HOME/vagrant/docker-run/most-business/srv/webapp' 
+alias taillogbusiness='tail -f $BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log' 
 
-alias gologsmostimporter='cd $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/logs' 
-alias godeploymostimporter='cd $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/srv/webapp' 
-alias taillogmostimporter='tail -f $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log' 
+alias gologsimporter='cd $IMPORTER_HOME/vagrant/docker-run/most-importer/logs' 
+alias godeployimporter='cd $IMPORTER_HOME/vagrant/docker-run/most-importer/srv/webapp' 
+alias taillogimporter='tail -f $IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log' 
 
-alias gologsmostaggregator='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs' 
-alias godeploymostaggregator='cd $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/srv/webapp' 
-alias taillogmostaggregator='tail -f $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log' 
+alias gologsaggregator='cd $AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs' 
+alias godeployaggregator='cd $AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/srv/webapp' 
+alias taillogaggregator='tail -f $AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log' 
 
-alias gologsmostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs' 
-alias godeploymostexternalconnector='cd $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/srv/webapp' 
-alias taillogmostexternalconnector='tail -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log' 
+alias gologsexternalconnector='cd $EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs' 
+alias godeployexternalconnector='cd $EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/srv/webapp' 
+alias taillogexternalconnector='tail -f $EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log' 
 
 alias taillogmojapgbusiness='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log'
 alias taillogmojapgportal='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log'
-alias tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f $MOST_BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log -f $MOST_IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log -f $MOST_EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log tail -f $MOST_AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log'
+alias tailall='tail -f $MOJAPG_HOME/vagrant/docker-run/mojapg-portal-trunk/logs/log/server.log -f $MOJAPG_HOME/vagrant/docker-run/mojapg-business-trunk/logs/log/server.log -f $BUSINESS_HOME/vagrant/docker-run/most-business/logs/spring.log -f $IMPORTER_HOME/vagrant/docker-run/most-importer/logs/spring.log -f $EXTERNAL_CONNECTOR_HOME/vagrant/docker-run/most-externalconnector/logs/spring.log tail -f $AGGREGATOR_HOME/vagrant/docker-run/most-aggregator/logs/spring.log'
 
 #alias goconf='cd $TOMCAT_HOME/conf' 
 alias ll='ls -alF --color'
