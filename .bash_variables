@@ -88,7 +88,7 @@ if [[ $platform == 'linux' ]]; then
 	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
-	export JAVA_HOME=/usr/lib/jvm/java-12-openjdk-amd64
+	export JAVA_HOME=/usr/lib/jvm/java-13-openjdk-amd64
 	export GANT_HOME=$TOOLS/gant-1.9.8
 	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
 	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
