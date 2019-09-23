@@ -83,12 +83,12 @@ if [[ $platform == 'linux' ]]; then
 	#looks like sqldeveloper is installed in two places TODO
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
 	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
-	export M2_HOME=$TOOLS/apache-maven-3.6.0
+	export M2_HOME=$TOOLS/apache-maven-3.6.2
     export GRADLE_HOME=$TOOLS/gradle-2.13
 	export PATH=$PATH:$GRADLE_HOME/bin
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
-	export JAVA_HOME=/usr/lib/jvm/java-13-openjdk-amd64
+	export JAVA_HOME=/opt/tools/jdk-13
 	export GANT_HOME=$TOOLS/gant-1.9.8
 	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
 	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
