@@ -16,7 +16,7 @@ export BUSINESS_HOME="$PROJECTS/business"
 export IMPORTER_HOME="$PROJECTS/importer"
 export AGGREGATOR_HOME="$PROJECTS/aggregator"
 export EXTERNAL_CONNECTOR_HOME="$PROJECTS/externalconnector"
-export MOJAPG_HOME="$PROJECTS/mojapg/trunk"
+export MOJAPG_HOME="$PROJECTS/mojapg"
 
 alias goimporter='cd $IMPORTER_HOME/business'
 alias goimportervagrant='cd $IMPORTER_HOME/vagrant'
