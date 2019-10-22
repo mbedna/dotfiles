@@ -223,7 +223,7 @@ assign [class="^Thunderbird$"] $wsmessage
 assign [class="^Firefox$"] $wsweb
 assign [class="^XTerm$"] $wsterm
 assign [class="^.*jetbrains.*$"] $wsdev
-assign [class="^Chromium-browser$"] $wsweb
+assign [class="^Chromium$"] $wsweb
 assign [class="^Rocket.Chat$"] $wsmessage
 bindsym $mod+Shift+greater move workspace to output right
 bindsym $mod+Shift+less move workspace to output left
@@ -231,11 +231,11 @@ bindsym $mod+Shift+less move workspace to output left
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /usr/local/bin/rocketchat-desktop'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/pidgin'
-exec --no-startup-id i3-msg 'workspace $wsdev; exec /opt/tools/idea-IU-183.4588.61/bin/idea.sh'
+exec --no-startup-id i3-msg 'workspace $wsdev; exec /opt/tools/idea-IU-182.5262.2/bin/idea.sh'
 exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm'
 exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm; exec /home/mbedna/bin/most/most-tmux.sh'
 exec --no-startup-id i3-msg 'workspace $wsweb; exec /bin/chromium-browser'
-exec --no-startup-id i3-msg 'workspace $wsweb;'
+#exec --no-startup-id i3-msg 'workspace $wsweb;'
 
 # In your i3 configuration file, you can autostart i3-msg like this:
 # (Note that those lines will quickly become long, so typically you would store
