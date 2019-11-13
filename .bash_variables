@@ -89,6 +89,9 @@ if [[ $platform == 'linux' ]]; then
 #	export M2_HOME=/media/paws/PENDRIVE/programs/maven
 	export ANT_HOME=$TOOLS/ant
 	export JAVA_HOME=/opt/tools/jdk-13
+	#export JAVA_HOME=/opt/tools/jdk-11.0.2
+	#export JAVA_HOME=/opt/tools/jdk-9.0.4
+    #export JAVA_HOME=/opt/tools/jdk1.7.0_80
 	export GANT_HOME=$TOOLS/gant-1.9.8
 	alias starteclim=$ECLIM_ECLIPSE_HOME/eclimd
 	alias starteclipseeclim=$ECLIM_ECLIPSE_HOME/STS
