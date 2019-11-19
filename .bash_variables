@@ -79,7 +79,8 @@ if [[ $platform == 'linux' ]]; then
 	export ECLIPSE_HOME=$TOOLS/eclipse
 	export IDEA_HOME=$TOOLS/idea-IU-182.5262.2
 	export SOAPUI_HOME=$TOOLS/SoapUI-5.3.0
-	export PATH=$PATH:$SOAPUI_HOME/bin:$IDEA_HOME/bin
+    export SQUIRREL_HOME=$TOOLS/squirrel-sql-snapshot-20191020_2023
+	export PATH=$PATH:$SOAPUI_HOME/bin:$IDEA_HOME/bin:$SQUIRREL_HOME
 	#looks like sqldeveloper is installed in two places TODO
 	export SQLDEVELOPER_HOME=$TOOLS/sqldeveloper
 	export PATH=$PATH:$SQLDEVELOPER_HOME/bin
