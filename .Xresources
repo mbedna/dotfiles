@@ -3,8 +3,14 @@
 ! xterm ----------------------------------------------------------------------
 !xterm*Locale: ISO8859-2
 xterm*Locale:             UTF-8 
-xterm*faceName:           VeraMono
-xterm*faceSize:           12
+xterm*faceName:           inconsolatazi4
+xterm*faceSize:           10 
+xterm*faceSize1:          13
+xterm*faceSize2:          12
+xterm*faceSize3:          11
+xterm*faceSize4:          9
+xterm*faceSize5:          8
+xterm*faceSize6:          7
 xterm*geometry:           180x30+0+0
 xterm*dynamicColors:      true
 xterm*utf8:               2
