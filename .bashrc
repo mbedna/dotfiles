@@ -102,6 +102,7 @@ alias mag='mvn archetype:generate'
 alias mjc='mvn jacoco:check' 
 alias mjh='mvn jacoco:help' 
 alias mcv='mvn clean verify' 
+alias mgo='mvn dependency:go-offline'
 
 function mcej() { 
     echo ${*:2};
