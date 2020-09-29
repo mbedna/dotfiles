@@ -19,7 +19,7 @@
 	diff = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -27,3 +27,9 @@
 	default = current
 [http]
 	sslverify = false
+[filesystem "Oracle Corporation|13|/dev/nvme0n1p6"]
+	timestampResolution = 4000 nanoseconds
+	minRacyThreshold = 6646 microseconds
+[filesystem "Oracle Corporation|13.0.2|/dev/nvme0n1p6"]
+	timestampResolution = 10000 nanoseconds
+	minRacyThreshold = 6699 microseconds

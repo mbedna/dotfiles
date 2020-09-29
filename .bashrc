@@ -8,6 +8,7 @@ if [ -f "${HOME}/.bash_variables" ]; then
   source "${HOME}/.bash_variables"
 fi
 
+alias sudo='sudo env PATH=$PATH'
 #export LC_ALL="pl_PL.ISO-8859-2"
 #export LANGUAGE="pl_PL.ISO-8859-2"
 
@@ -89,6 +90,7 @@ alias mctc='mvn clean test-compile'
 alias mcc='mvn clean compile'
 alias mci='mvn clean install'
 alias mcist='mvn clean install -DskipTests'
+alias mcistd='mvn clean install -DskipTests -Pjboss8-deployer'
 alias mciit='mvn clean install -DskipITs=false'
 alias mcob='mvn cobertura:cobertura'
 alias mff='mvn findbugs:findbugs'
