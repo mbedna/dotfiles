@@ -101,10 +101,12 @@ bindsym $mod+a focus parent
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
+bindsym XF86AudioMicMute exec --no-startup-id amixer set Master toggle
 bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 7
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 7
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s 10%+
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10%-
+
 # focus the child container
 #bindsym $mod+d focus child
 
