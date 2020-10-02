@@ -10,15 +10,15 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 #praca
-set $laptopscreen eDP-1 
-set $leftscreen DP-1-2
-set $rightscreen DP-2
-##################################################################
-#dom
 #set $laptopscreen eDP-1 
-#set $leftscreen DP-2
-#set $rightscreen DP-3
-##############################################################################
+#set $leftscreen DP-1-2
+#set $rightscreen DP-2
+####################################################################
+#dom
+set $laptopscreen eDP-1 
+set $leftscreen DP-2
+set $rightscreen DP-3
+###############################################################################
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -99,6 +99,12 @@ bindsym $mod+Shift+space floating toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
+
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 7
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 7
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -220,13 +226,13 @@ for_window [class="Arandr"] floating enable
 exec --no-startup-id nm-applet
 exec --no-startup-id jetbrains-toolbox --minimize
 #exec --no-startup-id redshift-gtk
-exec --no-startup-id volumeicon
+exec --no-startup-id /usr/bin/volumeicon
 exec --no-startup-id dropbox start
 exec --no-startup-id sudo /bin/systemctl start kibana
 exec --no-startup-id ~/bin/rotate_left.sh
 exec --no-startup-id ~/bin/remap-caps-escape.sh
 exec --no-startup-id ~/bin/batterynotif.sh
-exec --no-startup-id feh --bg-scale /home/mbedna/Pobrane/plaza.JPG
+exec --no-startup-id feh --bg-scale /opt/Dropbox/plaza.JPG
 
 # assign specific windows to workspaces
 # class znajdujemy przez xprop i xwininfo
@@ -242,7 +248,7 @@ assign [class="^.*VirtualBox.*$"] $wsvirtualbox
 bindsym $mod+Shift+greater move workspace to output right
 bindsym $mod+Shift+less move workspace to output left
 
-exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/rocketchat-desktop'
+exec --no-startup-id i3-msg 'workspace $wsmessage; exec /usr/bin/rocketchat-desktop'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/pidgin'
 exec --no-startup-id i3-msg 'workspace $wsdev; exec /opt/tools/idea-IC-201.6668.60/bin/idea.sh'
