@@ -1,0 +1,33 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.5,
+    "current_border_width": 2,
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "name": "xterm1",
+            "percent": 0.333333333333333,
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "name": "xterm2",
+            "percent": 0.333333333333333,
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "name": "xterm3",
+            "percent": 0.333333333333333,
+        }
+    ]
+}
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "name": "xterm4",
+    "percent": 0.5,
+}

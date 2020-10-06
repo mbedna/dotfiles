@@ -1,0 +1,56 @@
+#! /bin/sh
+ 
+# Simple autostart file for i3-wm, you can execute it from i3 config with
+# exec $HOME/bin/auto-start-for-i3-simple
+#
+# xdotool and xmessage must be installed
+ 
+# Wait for program
+wait_for_program () {
+    n=0
+    while true
+    do
+      # PID of last background command
+      if xdotool search --onlyvisible --pid $!; then
+        break
+      else
+       # 20 seconds timeout
+       if [ $n -eq 20 ]; then
+         gxmessage "Error on executing"
+         break
+       else
+         n=`expr $n + 1`
+         sleep 1
+       fi
+      fi
+    done
+}
+
+# Start some programs
+#
+# ______________________
+# |          |          |
+# |  xterm   |  xterm   |
+# |          |          |
+# |          |          |
+# |----------|----------|
+# |  xterm   |   xterm  |
+# |__________|__________|
+
+i3-msg workspace 4:term
+
+xterm
+wait_for_program
+
+xterm 
+wait_for_program
+
+xterm 
+wait_for_program
+
+xterm 
+wait_for_program
+
+i3-msg move down 
+
+exit 0

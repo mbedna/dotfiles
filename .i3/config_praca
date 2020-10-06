@@ -250,24 +250,41 @@ assign [class="^.*VirtualBox.*$"] $wsvirtualbox
 bindsym $mod+Shift+greater move workspace to output right
 bindsym $mod+Shift+less move workspace to output left
 
+
+
+#exec --no-startup-id "i3-msg 'workspace $wsterm; append_layout /home/mbedna/.i3/workspace-4.json'"
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /usr/bin/rocketchat-desktop'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/pidgin'
 exec --no-startup-id i3-msg 'workspace $wsdev; exec /opt/tools/idea-IC-201.6668.60/bin/idea.sh'
-exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm'
-exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm; exec /home/mbedna/bin/most/most-tmux.sh'
-exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm;'
-exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm;'
+#exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm; exec /home/mbedna/bin/most/most-tmux.sh'
+exec --no-startup-id i3-msg 'workspace $wsterm; exec bin/auto-start-for-i3-simple'
+#exec --no-startup-id i3-msg 'workspace $wsterm; split v'
+#exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm;'
+#exec --no-startup-id i3-msg 'workspace $wsterm; split h'
+#exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm;'
+#exec --no-startup-id i3-msg 'workspace $wsterm; split v'
+#exec --no-startup-id i3-msg 'workspace $wsterm; exec /bin/xterm;'
 exec --no-startup-id i3-msg 'workspace $wsweb; exec /bin/firefox'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/copyq'
 exec --no-startup-id i3-msg 'workspace $wsmessage; exec /bin/redshift-gtk'
 exec --no-startup-id i3-msg 'workspace $wstools; exec /opt/tools/squirrelsql-4.1.0-standard/squirrel-sql.sh'
 exec --no-startup-id i3-msg 'workspace $wsvirtualbox; exec /bin/virtualbox'
-#exec --no-startup-id i3-msg 'workspace $wsweb;'
+exec --no-startup-id i3-msg 'workspace $wsweb;'
 
+#exec --no-startup-id i3-msg 'workspace 3: Terms; exec urxvt'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; split v'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; exec urxvt'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; split h'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; exec urxvt'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; split v'
+#exec --no-startup-id i3-msg 'workspace 3: Terms; exec urxvt'
+#
+#exec --no-startup-id i3-msg 'workspace $wsterm; append_layout /home/mbedna/.i3/workspace-4.json'
 # In your i3 configuration file, you can autostart i3-msg like this:
 # (Note that those lines will quickly become long, so typically you would store
 #  them in a script with proper indentation.)
 #exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/mbedna/.i3/workspace-1.json'"
 #exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/mbedna/.i3/workspace-2.json'"
 #exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/mbedna/.i3/workspace-3.json'"
+#exec --no-startup-id "i3-msg 'workspace $wsterm; append_layout /home/mbedna/.i3/workspace-4.json'"
