@@ -48,7 +48,7 @@ export PATH=$PATH:$TOOLS/edeklaracje/e-Deklaracje/bin
 export PATH=$PATH:$TOOLS/foreman/bin
 export PATH=$PATH:$PROJECTS/capd-project/usefulScripts
 export PATH=$PATH:/opt/Dropbox/bin
-
+export PATH=$PATH:/opt/tools/skrypty
 #export PATH="${PATH}$(find /opt -name '.*' -prune -o -type d -printf ':%p')"
 export EDITOR=/usr/bin/vim
 
